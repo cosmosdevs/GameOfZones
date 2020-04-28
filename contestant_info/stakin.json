@@ -1,0 +1,4 @@
+{
+  "chain_id":"stakin",
+  "node addr":"tcp://161.35.45.178:26657"
+}
