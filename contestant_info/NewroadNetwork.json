@@ -1,4 +1,4 @@
 {
     "chain_id":"newroadchain",
-    "node addr":"tcp://52.157.185.34:26657"
+    "node addr":"tcp://goz.newroad.network:26657"
 }
