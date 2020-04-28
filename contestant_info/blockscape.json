@@ -1,0 +1,4 @@
+{
+  "chain_id":"NoChainNoGain-1000",
+  "node addr":"tcp://ibc.blockscape.network:26657"
+}
