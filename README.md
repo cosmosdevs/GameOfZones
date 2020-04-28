@@ -1,15 +1,25 @@
-# Game of Zones: Challenge 
+# Game of Zones: Challenge
 
 Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepare network operators for the launch of the first-ever BFT network. This year, the team that brought you Game of Stakes is back again with Game of Zones: on May 1, 2020, we’re kicking off another series of adversarial testnet challenges designed to prepare the Cosmos ecosystem for the upcoming launch of the IBC module.  
 
-Don’t wait —  [register now](https://docs.google.com/forms/d/e/1FAIpQLSfToQ42b5EUaobodsMDvLQmpcsUd41-Jr1vwdhi3cYsptnTCw/viewform) ! Registration will close on April 25, 2020.
+Registration is closed.
 
+## Submit your node information
+
+Please make a pull request to this repository with a new entry in the `contestant_info` folder.
+
+ Each pull request should include a title with Phase 1 and the team name that you registered with.
+
+``` json
+{
+  "chain_id":"XXX",
+  "node addr":"tcp://X.X.X.X:26657"
+}
+```
 
 ## Code of Conduct
 
 The Game of Zones team is dedicated to providing an inclusive and harrassment free experience for contributors. Please visit [Code of Conduct](CODE_OF_CONDUCT.md) for more information.
-
-
 
 ## The Challenge
 
@@ -17,7 +27,7 @@ Game of Zones will launch on May 1, 2020, and will comprise three separate, week
 
 *Weekly Challenge Rewards:*
 
-* Stay tuned! Challenge objectives will be announced on a weekly basis! The Week 1 Challenge will be announced on Friday, April 24th, 2020.
+* 1st Week: The goal is uptime. Teams will be evaluate on their ability to keep a connection with an abnormally short trust period active.
 
 In addition to the weekly challenges, there will also be a handful of opportunities to win additional prizes based on your overall competition performance.
 
