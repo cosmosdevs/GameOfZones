@@ -1,0 +1,4 @@
+{
+    "chain_id":"universe",
+    "node addr":"tcp://35.193.176.142:26657"
+  }
