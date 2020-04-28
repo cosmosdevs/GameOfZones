@@ -1,0 +1,4 @@
+{
+  "chain_id":"stakesstonechain",
+  "node addr":"tcp://5.181.51.80:26657"
+}
