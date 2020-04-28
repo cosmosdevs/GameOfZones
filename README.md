@@ -6,7 +6,9 @@ Registration is closed.
 
 ## Submit your node information
 
-Please make a pull request to this reporsitory with a new entry in the `contestant_info` folder.
+Please make a pull request to this repository with a new entry in the `contestant_info` folder.
+
+ Each pull request should include a title with Phase 1 and the team name that you registered with.
 
 ``` json
 {
