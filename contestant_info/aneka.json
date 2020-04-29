@@ -1,0 +1,4 @@
+{
+	"chain_id":"aneka",
+	"node_addr":"tcp://goz.aneka.io:26657"
+}
