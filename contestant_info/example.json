@@ -1,4 +1,4 @@
 {
     "chain_id":"XXX",
-    "node addr":"tcp://X.X.X.X:26657"
+    "node_addr":"tcp://X.X.X.X:26657"
   }
