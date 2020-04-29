@@ -1,0 +1,4 @@
+{
+    "chain_id":"figment",
+    "node_addr":"tcp:/goz-ibc.figment.network:26657"
+}
