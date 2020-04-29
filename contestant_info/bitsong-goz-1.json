@@ -1,0 +1,4 @@
+{
+    "chain_id":"bitsong-goz-1",
+    "node_addr":"tcp://goz-1.bitsong.network:26657"
+}
