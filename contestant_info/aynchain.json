@@ -1,0 +1,4 @@
+{
+"chain_id":"aynchain",
+"node_addr":"tcp://52.247.127.40:26657"
+}
