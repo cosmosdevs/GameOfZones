@@ -1,0 +1,4 @@
+{
+    "chain_id":"gunchain",
+    "node_addr":"tcp://goz.gunray.xyz:26657"
+  }
