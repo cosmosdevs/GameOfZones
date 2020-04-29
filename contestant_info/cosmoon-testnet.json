@@ -1,0 +1,4 @@
+ {
+    "chain_id": "cosmoon-testnet",
+    "node_addr": "tcp://ibc.cosmoon.org:26657"
+}
