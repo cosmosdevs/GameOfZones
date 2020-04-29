@@ -1,0 +1,4 @@
+{
+    "chain_id":"disraptorchain",
+    "node_addr":"tcp://3.21.156.79:26657"
+  }
