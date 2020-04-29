@@ -1,0 +1,4 @@
+{
+    "chain_id":"BlogChain",
+    "node_addr":"tcp://blogchain.xyz:26657"
+  }
