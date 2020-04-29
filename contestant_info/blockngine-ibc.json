@@ -1,0 +1,4 @@
+{
+    "chain_id":"blockngine-ibc",
+    "node addr":"tcp://rpc.blockngine.io:26657"
+  }
