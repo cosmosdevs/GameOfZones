@@ -1,0 +1,4 @@
+{
+    "chain_id":"vgng-1",
+    "node_addr":"tcp://ibc.vgng.io:26657"
+}
