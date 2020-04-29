@@ -1,0 +1,4 @@
+{
+    "chain_id":"genesis-lab",
+    "node_addr":"tcp://95.216.216.117:26657"
+}
