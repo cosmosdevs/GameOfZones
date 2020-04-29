@@ -1,0 +1,4 @@
+{
+    "chain_id":"gemstone",
+    "node_addr":"tcp://goz.jptpool.com:26657"
+}
