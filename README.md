@@ -27,21 +27,25 @@ Game of Zones will launch on May 1, 2020, and will comprise three separate, week
 
 *Weekly Challenge Rewards:*
 
-* 1st Week: The goal is uptime. Teams will be evaluate on their ability to keep a connection with an abnormally short trust period active.
+* Phase 1: The main objective for the first week of the competition is liveness, and each team’s competition rewards will depend on their ability to keep a connection alive.
+	* The Weekly Challenge Winner for Phase 1 will be the team that pushes the limits of packet connections by maintaining the longest lived connection with the fewest packets sent. 
+	* Each team that completes Phase 1 of the competition will be eligible to receive a GoZ Liveness Reward at the end of the challenge.
+ 
+* Phase 2: The main objective for Phase 2 is throughput, and each team should strive to relay as many packets as possible with their Relayer key.
+	* The Weekly Challenge Winner for Phase 2 will be the team that relays the most packets during this phase of the competition.
 
+* Week 3: The main objective for Week 3 is to stress test the security model of IBC, and the winner will be the team that executes the best confusion or deception attacks against other zones. 
+	* The Weekly Challenge Winner for Phase 3 will be the team who develops the best attacks or custom protocols to gain an advantage over other competitors, or a team who successfully executes a double spend attack. We expect competitors to provide technical write ups that include a Proof-of-Concept to show the work they’ve done to win.
 In addition to the weekly challenges, there will also be a handful of opportunities to win additional prizes based on your overall competition performance.
 
 *Cumulative Contest Challenge Rewards will be given for:*
 
-* Sending the most packets of any GoZ participant via the IBC module.
-
-* Developing the most novel custom zones designed to be part of the network.
-
-* Generating tokens used in novel ways via the IBC module.
-
-* Implementing the most innovative or deceptive state machine rewards.
-
-* Spreading the most Game of Zones spirit by with the best memes, GiFs, and overall most entertaining social media posts.
+* Most Packets Relayed via IBC module, which will reward the team that invests in automation to relay more packets than any other team throughout the entire competition.
+* Best Custom Zone, which will reward the team that beta tests the best custom zone designed to be part of the network when IBC is production-ready. For this reward, we will be paying extra attention to the most active zones throughout the competition.  
+* Most Creative Zone, which will reward the team with the most creative use for IBC-generated tokens used in novel ways. 
+* Most Innovative/Deceptive State Machine, which will reward the team who pulls off the best deception attacks by configuring their state machine in ways that give them significant benefits throughout the competition.  
+* The Gaia Award, which will reward the team that creates the best content and technical write ups that share best practices and document novel implementations for the community throughout the competition.
+ 
 
 ## The Rules of Engagement
 
@@ -59,7 +63,7 @@ As a reward for their efforts, competitors could receive prizes from a pool of 1
 
 * At least *5 cumulative competition challenge winners*,
 
-* *All eligible teams that successfully complete each phase of the competition.*
+* *All eligible teams that successfully complete the first phase of the competition.*
 
 Competitors will be able to track their performance and progress on a scoreboard that will launch at the beginning of the competition. Rewards and reward amounts will be announced to all participants during Closing Ceremonies for Game of Zones. In order to receive rewards, winners will be asked to provide information during a KYC process in order to receive a payout in ATOM.
 
@@ -73,31 +77,23 @@ All members of the Cosmos Community are eligible and encouraged to participate i
 
 * Challenge participants who violate the rules of engagement set forth in the contest scope or who violate the Code of Conduct for Game of Zones may be deemed ineligible for reward.
 
-## How to Register
-
-To register for Game of Zones, a member of your team will need to submit an application  [here](https://docs.google.com/forms/d/e/1FAIpQLSfToQ42b5EUaobodsMDvLQmpcsUd41-Jr1vwdhi3cYsptnTCw/viewform)  that includes a team name, the names of individuals competing with you, and a chain ID for your zone.  [Sign up now](https://docs.google.com/forms/d/e/1FAIpQLSfToQ42b5EUaobodsMDvLQmpcsUd41-Jr1vwdhi3cYsptnTCw/viewform) !
 
 ## Important Dates
 
 Save these important competition dates on your calendar:
 
-* Registration for Game of Zones closes on April 25, 2020 at 11:59pm PST.
+* ✅-Registration for Game of Zones closes on April 25, 2020 at 11:59pm PST.-
+* Game of Zones will begin on Friday, May 1, 2020.
+* The Official GoZ Opening Ceremonies Live Stream will be held on Friday, May 1, 2020 at 9am PST on our @cosmosdevs Twitch channel. 
+	* **Phase 1 launches at 12:00 am PST on 5/4** and ends at 11:59am PST on 5/8, and the P1 Live Stream will be on 5/8 at 12:00pm PST. 
+	* **Phase 2 launches at 12:00am PST on 5/11** and ends at 11:59PM PST on 5/15, and the P2 Live Stream will be on 5/15 at 12:00pm PST.
+	* **Phase 3 launches at 12:00am PST on 5/18** and ends at 11:59pm PST on 5/22, and the P3 Live Stream will be on 5/22 at 12:00pm PST.
+ 
+* Game of Zones will close on Friday, May 22nd, 2020 at 11:59pm PST.
+ 
+* The Official GoZ Closing Ceremonies Live Stream will be held on Thursday, May 28th, 2020 at 9am PST.
 
-* Game of Zones will launch on Friday, May 1, 2020.
-
-* The Official GoZ Opening Ceremonies Live Stream will be held on Friday, May 1, 2020.
-
-  * Week 1 Challenge Announcement: Friday, April 24, 2020
-
-    * Week 2 Challenge Announcement: Friday, May 1, 2020
-
-    * Week 3 Challenge Announcement: Friday, May 8, 2020
-
-* Game of Zones will close on Friday, May 22nd, 2020.
-
-* The Official GoZ Closing Ceremonies Live Stream will be held on Thursday, May 28th, 2020.
-
-These dates will be updated to provide official times when registration closes. Wherever possible, we will strive to find times that are convenient for participants distributed across diverse time zones.
+Wherever possible, we will strive to find times that are convenient for participants distributed across diverse time zones.
 
 ## Contact Us
 
