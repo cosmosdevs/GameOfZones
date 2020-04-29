@@ -1,0 +1,4 @@
+{
+    "chain_id":"armyids",
+    "node_addr":"tcp://goz.armyids.com:26657"
+  }
