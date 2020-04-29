@@ -1,0 +1,4 @@
+{
+    "chain_id":"ublochain",
+    "node_addr":"tcp://15.236.69.21:26657"
+  }
