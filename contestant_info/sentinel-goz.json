@@ -1,0 +1,4 @@
+{
+    "chain_id": "sentinel-goz",
+    "node_addr": "tcp://one.goz.sentinel.co:26657"
+}
