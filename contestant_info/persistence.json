@@ -1,0 +1,4 @@
+{
+    "chain_id":"persistence",
+    "node_addr":"tcp://relayer.persistence.one:26657"
+  }
