@@ -1,4 +1,4 @@
 {
 	"chain_id": "akashian",
-	"node_addr": "http://159.89.183.144:26657"
+	"node_addr": "tcp://159.89.183.144:26657"
 }
