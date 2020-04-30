@@ -1,0 +1,4 @@
+{
+    "chain_id":"outpost",
+    "node_addr":"tcp://goz.kysenpool.io:26657"
+}
