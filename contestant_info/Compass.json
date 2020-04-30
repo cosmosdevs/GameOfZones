@@ -1,0 +1,4 @@
+{
+    "chain_id":"Compass",
+    "node_addr":"tcp://goz.val.network:26657"
+}
