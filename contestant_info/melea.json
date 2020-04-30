@@ -1,0 +1,4 @@
+{
+  "chain_id":"melea-111",
+  "node addr":"tcp://melea.xyz:26657"
+}
