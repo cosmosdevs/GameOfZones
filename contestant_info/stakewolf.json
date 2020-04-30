@@ -1,0 +1,4 @@
+{
+  "chain_id":"stakewolf",
+  "node addr":"tcp://stakewolf.com:26657"
+}
