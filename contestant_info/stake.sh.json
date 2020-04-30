@@ -1,0 +1,4 @@
+{
+    "chain_id":"nuube-goz",
+    "node_addr":"tcp://ibc.stake.sh:26657"
+}
