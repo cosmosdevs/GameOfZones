@@ -1,0 +1,4 @@
+{
+    "chain_id":"fetchBeacon",
+    "node_addr":"tcp://fetch-goz.fetch.ai:26657"
+  }
