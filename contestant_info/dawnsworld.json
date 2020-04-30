@@ -1,0 +1,4 @@
+{
+    "chain_id":"dawnsworld",
+    "node_addr":"tcp://testnet.dawns.world:26657"
+}
