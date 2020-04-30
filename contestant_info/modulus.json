@@ -1,0 +1,4 @@
+{
+  "chain_id":"modulus-goz-1",
+  "node_addr":"tcp://goz.modulus.network:26657"
+}
