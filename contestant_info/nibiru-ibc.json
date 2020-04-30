@@ -1,0 +1,4 @@
+{
+    "chain_id":"nibiru-ibc",
+    "node_addr":"tcp://goz.nibiru.network:26657"
+}
