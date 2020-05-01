@@ -1,4 +1,4 @@
 {
-    "chain_id":"XXX",
-    "node_addr":"tcp://X.X.X.X:26657"
+    "chain_id":"stateset",
+    "node_addr":"tcp://35.209.174.13:26657"
   }
