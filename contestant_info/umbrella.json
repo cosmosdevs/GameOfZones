@@ -1,0 +1,4 @@
+{
+    "chain_id":"umbrella",
+    "node_addr":"tcp://goz.umbrellavalidator.com:26657"
+}
