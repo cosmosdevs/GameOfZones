@@ -23,7 +23,7 @@ The Game of Zones team is dedicated to providing an inclusive and harrassment fr
 
 ## The Challenge
 
-Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives. In addition to completing these objectives, your team will need to keep a persistent connection alive by sending at least 1 packet per connection at least every 60 minutes to be eligible to win.
+Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives. In addition to completing these objectives, your team will need to keep a persistent connection alive by sending at least 1 packet per connection at least every 90 minutes to be eligible to win.
 
 *Weekly Challenge Rewards:*
 
