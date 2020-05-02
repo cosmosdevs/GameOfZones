@@ -1,0 +1,4 @@
+{
+  "chain_id":"stakingfund",
+  "node addr":"tcp://ibc.staking.fund:26657"
+}
