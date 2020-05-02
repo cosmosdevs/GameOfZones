@@ -1,0 +1,4 @@
+{
+    "chain_id":"newroadchain",
+    "node addr":"tcp://goz.newroad.network:26657"
+}
