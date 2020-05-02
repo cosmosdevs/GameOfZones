@@ -1,0 +1,4 @@
+{
+    "chain_id":"setanchain",
+    "node_addr":"tcp://setan.ml:26657"
+  }
