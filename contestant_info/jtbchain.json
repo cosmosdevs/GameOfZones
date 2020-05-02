@@ -1,0 +1,4 @@
+{
+    "chain_id":"jtbchain",
+    "node_addr":"tcp://213.32.70.133:26657"
+}
