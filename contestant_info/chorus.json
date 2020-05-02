@@ -1,0 +1,4 @@
+{
+    "chain_id":"fedzone-1",
+    "node_addr":"tcp://fedzone.chorus.one:26657"
+  }
