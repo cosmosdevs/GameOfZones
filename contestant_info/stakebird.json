@@ -1,0 +1,4 @@
+{
+    "chain_id":"stakebird-1",
+    "node addr":"tcp://goz.stakebird.com:26657"
+}
