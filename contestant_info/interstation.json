@@ -1,0 +1,4 @@
+{
+    "chain_id": "interstation",
+    "node addr": "tcp://interstation.cosmostation.io:26657"
+}
