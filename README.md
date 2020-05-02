@@ -11,13 +11,37 @@ Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones H
 The Genesis [file](goz-genesis.json) is this repo.
 
 We have a publicly available node on over p2p
-at `tcp://ef71392a1658182a9207985807100bb3d106dce6@35.233.155.199:26656` and open rpc at `35.233.155.199:26656`.
+at `tcp://6e4e0fad3d152b4086e24fd84602f71c6815832d@35.233.155.199:26656` and open rpc at `http://35.233.155.199:26657`.
 
 This hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
 
 You should have recieved `10 million` doubloons to your account.
 
 We will begin scoring at 10 am Pacific time on May 4th. Use the weekend to get your chains and relayers connected.
+
+### Phase 1 - Versions
+
+Players should use the following versions of `relayer`, `gaia` and/or `cosmos-sdk` respectively to participate in Phase 1:
+
+```
+CosmosSDK: 750c218 (PR: https://github.com/cosmos/cosmos-sdk/pull/6127)
+Gaia: 9f47782 (PR: https://github.com/cosmos/gaia/pull/386)
+$ gaiad version --long
+name: gaia
+server_name: gaiad
+client_name: gaiacli
+version: 0.0.0-185-g9f47782
+commit: 9f47782515341f65505b25eba5d7ba55f5d091d2
+build_tags: netgo,ledger
+go: go version go1.14 darwin/amd64
+
+Relayer: 6685579 (PR: https://github.com/iqlusioninc/relayer/pull/221)
+$ rly version
+version: 0.3.1-3-g6685579
+commit: 66855795d3e9cef3c84dcc9fda20d13cb5d6ff4f
+cosmos-sdk: v0.34.4-0.20200430150743-930802e7a13c
+go: go1.14 darwin/amd64
+```
 
 ## Code of Conduct
 
