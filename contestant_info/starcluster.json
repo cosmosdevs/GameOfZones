@@ -1,0 +1,4 @@
+{
+  "chain_id":"starcluster-1337",
+  "node_addr":"tcp://goz.starcluster.tech:26657"
+}
