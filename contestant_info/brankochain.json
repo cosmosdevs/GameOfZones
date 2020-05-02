@@ -1,0 +1,4 @@
+{
+    "chain_id":"brankochain",
+    "node_addr":"tcp://149.248.61.193:26657"
+  }
