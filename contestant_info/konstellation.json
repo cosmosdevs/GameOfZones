@@ -1,0 +1,4 @@
+{
+    "chain_id": "konstellation",
+    "node_addr": "tcp://goz.konstellation.tech:26657"
+}
