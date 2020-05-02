@@ -1,0 +1,4 @@
+{
+    "chain_id":"westaking",
+    "node addr":"tcp://ibc.westaking.io:26657"
+  }
