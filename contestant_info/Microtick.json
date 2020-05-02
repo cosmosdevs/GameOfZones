@@ -1,0 +1,4 @@
+{
+    "chain_id":"microtick-ibc",
+    "node_addr":"tcp://45.79.207.112:26657"
+}
