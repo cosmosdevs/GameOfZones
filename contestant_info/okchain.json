@@ -1,0 +1,4 @@
+{
+    "chain_id":"okchain",
+    "node addr":"tcp://3.112.29.150:26657"
+  }
