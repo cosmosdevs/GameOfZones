@@ -1,0 +1,4 @@
+{
+  "chain_id": "jellyfish",
+  "node_addr": "tcp://goz.cosmos.fish:26657"
+}
