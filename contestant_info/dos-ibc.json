@@ -1,0 +1,4 @@
+{
+    "chain_id":"dos-ibc",
+    "node_addr":"tcp://goz.dos.network:26657"
+  }
