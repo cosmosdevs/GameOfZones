@@ -1,0 +1,4 @@
+{
+    "chain_id":"achain",
+    "node addr":"tcp://achain.nodeateam.com:26657"
+  }
