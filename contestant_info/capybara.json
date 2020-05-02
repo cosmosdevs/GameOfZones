@@ -1,0 +1,4 @@
+{
+    "chain_id": "capychain",
+    "node_addr": "tcp://capychain.com:26657"
+} 
