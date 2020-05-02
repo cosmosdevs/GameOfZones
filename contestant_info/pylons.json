@@ -1,0 +1,4 @@
+{
+  "chain_id":"pylonschain",
+  "node_addr":"tcp://node.pylons.tech:26657"
+}
