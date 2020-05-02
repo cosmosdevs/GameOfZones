@@ -1,0 +1,4 @@
+{
+  "chain_id":"staking-defense",
+  "node addr":"tcp://goz.stakingdefense.org:26657"
+}
