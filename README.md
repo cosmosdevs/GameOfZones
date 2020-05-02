@@ -8,7 +8,7 @@ Registration is closed.
 
 Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones Hub.
 
-The Genesis [file](goz-genesis.md) is this repo.
+The Genesis [file](goz-genesis.json) is this repo.
 
 We have a publicly available node on over p2p
 at `tcp://ef71392a1658182a9207985807100bb3d106dce6@35.233.155.199:26656` and open rpc at `35.233.155.199:26656`.
