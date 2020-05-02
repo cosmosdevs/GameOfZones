@@ -1,0 +1,4 @@
+{
+  "chain_id": "coco-post-chain",
+  "node_addr": "tcp://ibc.cosmiccompass.io:26657"
+}

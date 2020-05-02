@@ -1,0 +1,4 @@
+{
+  "chain_id": "freeflix-media-hub",
+  "node_addr": "tcp://ibc.freeflix.media:26657"
+}
