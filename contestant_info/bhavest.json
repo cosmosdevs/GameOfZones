@@ -1,0 +1,4 @@
+{
+    "chain_id": "B-Harvest",
+    "node_addr": "tcp://ibc.bharvest.io:26657"
+} 
