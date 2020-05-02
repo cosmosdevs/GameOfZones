@@ -1,0 +1,4 @@
+{
+  "chain_id": "avnet",
+  "node_addr": "tcp://goz.cosmos.alphavirtual.com:26657"
+}
