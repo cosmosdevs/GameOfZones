@@ -1,0 +1,4 @@
+{
+    "chain_id":"staked-ibc",
+    "node_addr":"tcp://ibc.staked.cloud:26657"
+}
