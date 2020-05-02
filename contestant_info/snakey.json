@@ -1,0 +1,4 @@
+{
+    "chain_id":"snakey",
+    "node_addr":"tcp://ananas.alpe1.net:26657"
+}
