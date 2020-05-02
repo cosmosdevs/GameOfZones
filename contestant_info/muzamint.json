@@ -1,0 +1,4 @@
+{
+  "chain_id":"muzamint",
+  "node_addr":"tcp://muzamint.com:26657/"
+}
