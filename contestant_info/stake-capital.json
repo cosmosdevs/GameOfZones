@@ -1,0 +1,4 @@
+{
+    "chain_id":"stake-capital",
+    "node_addr":"tcp://goz.stakedao.org:26657"
+}
