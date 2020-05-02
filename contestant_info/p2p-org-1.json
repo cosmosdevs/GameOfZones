@@ -1,0 +1,4 @@
+{
+    "chain_id":"p2p-org-1",
+    "node_addr":"tcp://p2p-org-1.goz.p2p.org:26657"
+}
