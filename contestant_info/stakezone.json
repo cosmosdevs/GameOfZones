@@ -1,0 +1,4 @@
+{
+    "chain_id":"szchain",
+    "node_addr":"tcp://goz2.stake.zone:26657"
+  }
