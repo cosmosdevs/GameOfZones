@@ -1,0 +1,4 @@
+{
+	"chain_id": "akashian",
+	"node_addr": "tcp://159.89.183.144:26657"
+}
