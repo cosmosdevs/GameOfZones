@@ -1,0 +1,4 @@
+{
+  "chain_id":"rvc-1",
+  "node addr":"tcp://rvc.novy.pw:26657"
+}
