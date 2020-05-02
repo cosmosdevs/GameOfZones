@@ -1,4 +1,4 @@
 {
-  "chain_id": "irishub-goz",
-  "node addr": "tcp://35.236.168.104:26657"
+    "chain_id": "irishub-goz",
+    "node_addr": "tcp://35.236.168.104:26657"
 }

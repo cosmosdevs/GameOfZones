@@ -1,4 +1,4 @@
 {
-  "chain_id":"stardust-1111",
-  "node addr":"tcp:stratus.mycryptobets.com:26657"
+    "chain_id": "stardust-1111",
+    "node_addr": "tcp://stratus.mycryptobets.com:26657"
 }

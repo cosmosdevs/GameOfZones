@@ -1,4 +1,4 @@
 {
-  "chain_id": "joon-chain-goz",
-  "node addr": "tcp://joon-chain-goz.cosmostation.io:26657"
+    "chain_id": "joon-chain-goz",
+    "node_addr": "tcp://joon-chain-goz.cosmostation.io:26657"
 }
