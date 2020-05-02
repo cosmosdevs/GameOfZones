@@ -1,0 +1,4 @@
+{
+    "chain_id":"zilotchain",
+    "node_addr":"tcp://3.21.169.1:26657"
+  }
