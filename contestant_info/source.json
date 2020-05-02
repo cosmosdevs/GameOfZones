@@ -1,0 +1,4 @@
+{
+    "chain_id":"source-xgoz",
+    "node_addr":"tcp://goz.source.network:26657"
+}
