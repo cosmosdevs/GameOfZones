@@ -1,0 +1,4 @@
+{
+  "chain_id":"dropschain",
+  "node_addr":"tcp://dropschain.com:26657"
+}
