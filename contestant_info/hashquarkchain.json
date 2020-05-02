@@ -1,0 +1,4 @@
+{
+  "chain_id":"hashquarkchain",
+  "node_addr":"tcp://goz.hashquark.io:26657"
+}
