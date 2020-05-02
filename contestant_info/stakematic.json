@@ -1,0 +1,4 @@
+{
+    "chain_id":"stakematic",
+    "node_addr":"tcp://35.198.125.128:26657"
+ }
