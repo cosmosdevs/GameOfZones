@@ -1,0 +1,4 @@
+{
+  "chain_id":"vostok-1",
+  "node_addr":"tcp://chain.exchange-fees.com:26657"
+}
