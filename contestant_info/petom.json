@@ -1,0 +1,4 @@
+{
+  "chain_id":"petomhub",
+  "node addr":"tcp://goz.cyphercore.io:26657"
+}
