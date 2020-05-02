@@ -1,0 +1,5 @@
+
+{
+  "chain_id": "audit.one",
+  "node_addr": "tcp://goz.audit.one:26657"
+}
