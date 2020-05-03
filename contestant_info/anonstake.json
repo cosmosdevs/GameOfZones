@@ -1,4 +1,4 @@
 {
     "chain_id":"anon-chain",
-    "node_addr":"tcp://n1.anonstake.dev:26657"
+    "node_addr":"tcp://116.203.245.68:26657"
   }
