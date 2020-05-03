@@ -1,0 +1,4 @@
+{
+    "chain_id":"ping-ibc",
+    "node_addr":"tcp://ibc.ping.pub:26657"
+}
