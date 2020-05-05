@@ -1,0 +1,4 @@
+{
+    "chain_id":"atomicbombers",
+    "node_addr":"tcp://bombers.dokia.cloud:26657"
+}
