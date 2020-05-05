@@ -1,0 +1,4 @@
+{
+    "chain_id": "moleculechain",
+    "node_addr": "tcp://molecule.adri.co:26657"
+}
