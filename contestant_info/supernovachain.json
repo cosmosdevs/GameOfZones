@@ -1,0 +1,4 @@
+{
+    "chain_id":"supernovachain",
+    "node_addr":"tcp://supernovachain.cosmostation.io:26657"
+}
