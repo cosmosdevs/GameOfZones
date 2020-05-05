@@ -1,4 +1,4 @@
 {
   "chain_id": "enigma-goz",
-  "node addr": "tcp://val1.goz.enigma.co:26657"
+  "node_addr": "tcp://val1.goz.enigma.co:26657"
 }
