@@ -23,21 +23,21 @@ You should have recieved `10 million` doubloons to your account.
 Players should use the following versions of `relayer`, `gaia` and/or `cosmos-sdk` respectively to participate in Phase 1:
 
 ``` bash
-CosmosSDK: 750c218 (PR: https://github.com/cosmos/cosmos-sdk/pull/6127)
-Gaia: 9f47782 (PR: https://github.com/cosmos/gaia/pull/386)
+CosmosSDK: 7557f0e (PR (closed): https://github.com/cosmos/cosmos-sdk/pull/6127)
+Gaia: b617e2b (PR: https://github.com/cosmos/gaia/pull/386)
 $ gaiad version --long
 name: gaia
 server_name: gaiad
 client_name: gaiacli
-version: 0.0.0-185-g9f47782
-commit: 9f47782515341f65505b25eba5d7ba55f5d091d2
+version: 0.0.0-186-gb617e2b
+commit: b617e2bd10f179f8a9722c0d9e329a16611e6e2a
 build_tags: netgo,ledger
 go: go version go1.14 darwin/amd64
 
-Relayer: 6685579 (PR: https://github.com/iqlusioninc/relayer/pull/221)
+Relayer: 2282f8b (PR: https://github.com/iqlusioninc/relayer/pull/221)
 $ rly version
-version: 0.3.1-3-g6685579
-commit: 66855795d3e9cef3c84dcc9fda20d13cb5d6ff4f
+version: 0.3.1-5-g2282f8b
+commit: 2282f8b33c7025a5e9dc6d7eacfb8c1ad9572897
 cosmos-sdk: v0.34.4-0.20200430150743-930802e7a13c
 go: go1.14 darwin/amd64
 ```
@@ -48,7 +48,7 @@ The Game of Zones team is dedicated to providing an inclusive and harrassment fr
 
 ## The Challenge
 
-Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives. In addition to completing these objectives, your team will need to keep a persistent connection alive by sending at least 1 packet per connection at least every 90 minutes to be eligible to win.
+Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives. 
 
 *Weekly Challenge Rewards:*
 
