@@ -1,6 +1,6 @@
 # Game of Zones: Challenge
 
-Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepare network operators for the launch of the first-ever BFT network. This year, the team that brought you Game of Stakes is back again with Game of Zones: on May 1, 2020, we’re kicking off another series of adversarial testnet challenges designed to prepare the Cosmos ecosystem for the upcoming launch of the IBC module.  
+Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepare network operators for the launch of the first-ever BFT network. This year, the team that brought you Game of Stakes is back again with Game of Zones: on May 1, 2020, we’re kicking off another series of adversarial testnet challenges designed to prepare the Cosmos ecosystem for the upcoming launch of the IBC module.
 
 Registration is closed.
 
@@ -36,8 +36,8 @@ go: go version go1.14 darwin/amd64
 
 Relayer: 2282f8b (PR: https://github.com/iqlusioninc/relayer/pull/221)
 $ rly version
-version: 0.3.0-31-ga89a705
-commit: a89a705583ac9f3eea02ce7787f08be3df8a526e
+version: 0.3.0-30-g2282f8b
+commit: 2282f8b33c7025a5e9dc6d7eacfb8c1ad9572897
 cosmos-sdk: v0.34.4-0.20200430150743-930802e7a13c
 go: go1.14 linux/amd64
 ```
@@ -48,7 +48,7 @@ The Game of Zones team is dedicated to providing an inclusive and harrassment fr
 
 ## The Challenge
 
-Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives. 
+Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives.
 
 *Weekly Challenge Rewards:*
 
@@ -66,9 +66,9 @@ In addition to the weekly challenges, there will also be a handful of opportunit
 *Cumulative Contest Challenge Rewards will be given for:*
 
 * Most Packets Relayed via IBC module, which will reward the team that invests in automation to relay more packets than any other team throughout the entire competition.
-* Best Custom Zone, which will reward the team that beta tests the best custom zone designed to be part of the network when IBC is production-ready. For this reward, we will be paying extra attention to the most active zones throughout the competition.  
+* Best Custom Zone, which will reward the team that beta tests the best custom zone designed to be part of the network when IBC is production-ready. For this reward, we will be paying extra attention to the most active zones throughout the competition.
 * Most Creative Zone, which will reward the team with the most creative use for IBC-generated tokens used in novel ways.
-* Most Innovative/Deceptive State Machine, which will reward the team who pulls off the best deception attacks by configuring their state machine in ways that give them significant benefits throughout the competition.  
+* Most Innovative/Deceptive State Machine, which will reward the team who pulls off the best deception attacks by configuring their state machine in ways that give them significant benefits throughout the competition.
 * The Gaia Award, which will reward the team that creates the best content and technical write ups that share best practices and document novel implementations for the community throughout the competition.
 
 ## The Rules of Engagement
