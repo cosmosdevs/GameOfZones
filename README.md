@@ -4,9 +4,9 @@ Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepa
 
 Registration is closed.
 
-## Game of Zones Phase 1
+## Phase 1: Liveness
 
-Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones Hub.
+Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones Hub. **Phase 1 of the competition will launch on Wednesday, May 6th at 12AM PST/ 7AM UTC.** The Game of Zones scoreboard will be available to participants several hours after the competition kicks off.
 
 The Genesis [file](goz-genesis.json) is this repo.
 
@@ -17,9 +17,8 @@ This hub will be centralized during the combination. The staking tokens are all 
 
 You should have recieved `10 million` doubloons to your account.
 
-We will begin scoring at 10 am Pacific time on May 4th. Use the weekend to get your chains and relayers connected.
 
-### Phase 1 - Versions
+### Software for Phase 1
 
 Players should use the following versions of `relayer`, `gaia` and/or `cosmos-sdk` respectively to participate in Phase 1:
 
@@ -109,7 +108,7 @@ Save these important competition dates on your calendar:
 * ✅-Registration for Game of Zones closes on April 25, 2020 at 11:59pm PST.-
 * Game of Zones will begin on Friday, May 1, 2020.
 * The Official GoZ Opening Ceremonies Live Stream will be held on Friday, May 1, 2020 at 9am PST on our @cosmosdevs Twitch channel.
-  * **Phase 1 launches at 12:00 am PST on 5/4** and ends at 11:59am PST on 5/8, and the P1 Live Stream will be on 5/8 at 12:00pm PST.
+  * **Phase 1 launches at 12:00 am PST on 5/6** and ends at 11:59am PST on 5/10, and the P1 Live Stream will be on 5/8 at 12:00pm PST.
     * **Phase 2 launches at 12:00am PST on 5/11** and ends at 11:59PM PST on 5/15, and the P2 Live Stream will be on 5/15 at 12:00pm PST.
     * **Phase 3 launches at 12:00am PST on 5/18** and ends at 11:59pm PST on 5/22, and the P3 Live Stream will be on 5/22 at 12:00pm PST.
 
