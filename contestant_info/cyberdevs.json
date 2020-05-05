@@ -1,4 +1,4 @@
 {
     "chain_id":"cyberdevs",
-    "node addr":"http://cyberdevs.cyberd.ai:26657"
+    "node_addr":"http://cyberdevs.cyberd.ai:26657"
 }
