@@ -36,10 +36,10 @@ go: go version go1.14 darwin/amd64
 
 Relayer: 2282f8b (PR: https://github.com/iqlusioninc/relayer/pull/221)
 $ rly version
-version: 0.3.1-5-g2282f8b
-commit: 2282f8b33c7025a5e9dc6d7eacfb8c1ad9572897
+version: 0.3.0-31-ga89a705
+commit: a89a705583ac9f3eea02ce7787f08be3df8a526e
 cosmos-sdk: v0.34.4-0.20200430150743-930802e7a13c
-go: go1.14 darwin/amd64
+go: go1.14 linux/amd64
 ```
 
 ## Code of Conduct
