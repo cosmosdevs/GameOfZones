@@ -1,4 +1,4 @@
 {
 "chain-id": "staking-defense",
-"node": "rpc:167.172.242.102:26657"
+"node_addr": "rpc:167.172.242.102:26657"
 }
