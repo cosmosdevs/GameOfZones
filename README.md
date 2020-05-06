@@ -10,8 +10,25 @@ Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones H
 
 The Genesis [file](goz-genesis.json) is this repo.
 
-We have a publicly available node on over p2p
-at `tcp://6e4e0fad3d152b4086e24fd84602f71c6815832d@35.233.155.199:26656` and open rpc at `35.233.155.199:26657`.
+We have a publicly available sentry nodes available over p2p:
+
+```
+tcp://7cb9cbba21fdc3b004f098c116e5e2c2ac77ddfb@34.83.218.4:26656
+tcp://6e4e0fad3d152b4086e24fd84602f71c6815832d@35.233.155.199:26656
+tcp://ef36b3167b8599c46b0daf799f089068360c3911@34.83.0.237:26656
+```
+
+As well as the following open RPC endpoints:
+```
+http://34.83.218.4:26657
+http://35.233.155.199:26657
+http://34.83.0.237:26657
+```
+
+And 1 seed node:
+```
+tcp://d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
+```
 
 This hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
 
