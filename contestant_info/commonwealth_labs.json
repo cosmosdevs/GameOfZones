@@ -1,0 +1,4 @@
+{
+  "chain_id": "supernova",
+  "node_addr": "tcp://supernova.commonwealth.im:26657"
+}
