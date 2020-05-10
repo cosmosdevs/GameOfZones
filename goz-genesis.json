@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2020-05-10T22:02:49.376458936Z",
+  "genesis_time": "2020-05-10T22:54:18.364961641Z",
   "chain_id": "gameofzoneshub-2",
   "consensus_params": {
     "block": {
@@ -19,76 +19,10 @@
   },
   "app_hash": "",
   "app_state": {
-    "ibc": {
-      "client_genesis": {
-        "clients": [],
-        "clients_consensus": []
-      },
-      "connection_genesis": {
-        "connections": [],
-        "client_connection_paths": []
-      },
-      "channel_genesis": {
-        "channels": [],
-        "acknowledgements": [],
-        "commitments": [],
-        "send_sequences": [],
-        "recv_sequences": []
-      }
-    },
     "evidence": {
       "evidence": []
     },
-    "slashing": {
-      "params": {
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
-      },
-      "signing_infos": {},
-      "missed_blocks": {}
-    },
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 100,
-        "max_entries": 7,
-        "historical_entries": 100,
-        "bond_denom": "stake"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
-    },
-    "gov": {
-      "starting_proposal_id": "1",
-      "deposits": null,
-      "votes": null,
-      "proposals": null,
-      "deposit_params": {
-        "min_deposit": [
-          {
-            "denom": "stake",
-            "amount": "10000000"
-          }
-        ],
-        "max_deposit_period": "172800000000000"
-      },
-      "voting_params": {
-        "voting_period": "172800000000000"
-      },
-      "tally_params": {
-        "quorum": "0.334000000000000000",
-        "threshold": "0.500000000000000000",
-        "veto": "0.334000000000000000"
-      }
-    },
+    "params": null,
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -936,6 +870,354 @@
           "type": "cosmos-sdk/Account",
           "value": {
             "address": "cosmos1aftl8e8maxkw0q7yjzytfhpcz75stu835gzhxw"
+          }
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "stake",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "transfer": {
+      "portid": "transfer"
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "stake",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "upgrade": {},
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": []
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": []
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "send_sequences": [],
+        "recv_sequences": []
+      }
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 100,
+        "bond_denom": "stake"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1l5g5skk8pvt37mqte4w9l2qscqshylztr93edr",
+                  "validator_address": "cosmosvaloper1l5g5skk8pvt37mqte4w9l2qscqshylztx39vps",
+                  "pubkey": "cosmosvalconspub1zcjduepqxgdes2zavma6465wrjmrrxk8njktlag6yss27x4l97sgfwcq4unsm33vdg",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyECFKluIGT/RxnqSLdBOnRAjgj9EbSdmCjWcKBHEd1cFFs=",
+                "signature": "mDMtOi1CzbxCfFEXBad+FUQJXgGXjpcd3S7QOLbY6acLZTQ7/jyGzhNkwqvpha6VKGIfei7hySqd7efmf3OZmQ=="
+              }
+            ],
+            "memo": "4c1591644beb5e0287afd17c0dd62a98fa74af87@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos16n2fjwyexxpp4z652zfza7h9ljnt067phhyy5n",
+                  "validator_address": "cosmosvaloper16n2fjwyexxpp4z652zfza7h9ljnt067pjrs3cq",
+                  "pubkey": "cosmosvalconspub1zcjduepq9n2a6zz8ysadv22fyuhc4hm9m9ydlzkp03mk2ttpuedqt8kwnh3quxzhwh",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyED+OkHD+W62VFKL9Osy4ePbw5gVxf+rNVEcmonAYQpUHE=",
+                "signature": "dUNILjKDaOivGnRs8EPT5J+dki4iMvk6o6aj/0hEAE4wmjrl5mv4qnxM+DPu+CEiRC0MtBs+lqLf0Uylwcro1g=="
+              }
+            ],
+            "memo": "690a51f9d97e080e2e28cc7ad0439b52e278dd12@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1se0l0cykenn4yrpxe5hvhjekmgdp7vw7ceyd30",
+                  "validator_address": "cosmosvaloper1se0l0cykenn4yrpxe5hvhjekmgdp7vw7adscau",
+                  "pubkey": "cosmosvalconspub1zcjduepq42k49llg4szsmtv3z48hummg448gx0ymla8evmsu88tgqak9n44sje890y",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyECQA3+GaTovJGkY/f/czgNFx281BAjZWYkAM2drshqSnc=",
+                "signature": "C6b5FFdyCX3eqvdjsat+MgtmubVONx4d2MRHkPWKyB9xf5Cw25VINa2xf2eo5ioM1AqGQN2vhe62mW4a7ORD8g=="
+              }
+            ],
+            "memo": "9e5df6b32f7e98136ca047b6b4deb5d6d01abac5@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1ggygt8dltglpzh05nzar7c4lh2dasfq0xaeplu",
+                  "validator_address": "cosmosvaloper1ggygt8dltglpzh05nzar7c4lh2dasfq0rfd5n0",
+                  "pubkey": "cosmosvalconspub1zcjduepq5pa34lxvcyn00dgwt8lfxrrangmrkegxj4zzg30zumundq4tg2fsrkgx8x",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyEDz3U9ppgc8ZmVhOPgb+gEkvs5sXOf8dxHaqf5Vls1Q/k=",
+                "signature": "xBuGSkM+e4Lmeh/dMn+ekqei7BY00EDQ1RaAZ/6SCNwBe1nATM9ZoZ7vy+OCZ5KrHJ5Lmwe6dl9RPaABjo7vMA=="
+              }
+            ],
+            "memo": "ade458d892b05ca4c6ef007392ba3dad3552539d@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1dz46hadgx3jta5egaf8zq0ykucfudhskzq9gyn",
+                  "validator_address": "cosmosvaloper1dz46hadgx3jta5egaf8zq0ykucfudhsk853agq",
+                  "pubkey": "cosmosvalconspub1zcjduepqcrddvzedstld9yxufd44a8p3u80r77rv2eq99xtq8wxltg4q032qshw5w4",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyEC8wNhkSvdMdaYcdCrMpwqZV5ki56fvauiCPU56szDN0o=",
+                "signature": "pnbMsF/8SzG+fNtIfwn1ODPii7V9eNPqossPOLK2yUEdohLdJLoG3FhJF9EQPGNd8Kfx9jpdKa22W1hZmyrHCQ=="
+              }
+            ],
+            "memo": "c70eef2e9345ad0c48623dc7aa30f326748845e8@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1qrqhsf7xjralgmrqa0cwtgctl8dr7vjrpee8f2",
+                  "validator_address": "cosmosvaloper1qrqhsf7xjralgmrqa0cwtgctl8dr7vjryddj9e",
+                  "pubkey": "cosmosvalconspub1zcjduepqucr5urzlpq3p3hj54hexvqwwj2pfekvf6g8hn2fyzhn3skmdrw9qje07aw",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyEDfa90frQKHf7LfrLl8JhkPMTRy9gsjHGoBvi2vP9gECI=",
+                "signature": "nWBaQZ6JJ1VpHGMN8cwF2/h6LdC7+rS3SvlluEJiA5lqv8ezLFaBf0RqZZD6Dov8f3Psic49lbkzfSqtJp7IMA=="
+              }
+            ],
+            "memo": "d03650b197172a7f2aefd864c717607ff0f552ab@10.138.0.32:26656"
           }
         }
       ]
@@ -2246,525 +2528,9 @@
       ],
       "supply": []
     },
-    "upgrade": {},
-    "crisis": {
-      "constant_fee": {
-        "denom": "stake",
-        "amount": "1000"
-      }
-    },
-    "genutil": {
-      "gentxs": [
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos16n2fjwyexxpp4z652zfza7h9ljnt067phhyy5n",
-                  "validator_address": "cosmosvaloper16n2fjwyexxpp4z652zfza7h9ljnt067pjrs3cq",
-                  "pubkey": "cosmosvalconspub1zcjduepqpyqcdwj7gw6ygwlgx87muvdg49cpcqezpl23tw74pw9jr82hejtqg0pd5h",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyED+OkHD+W62VFKL9Osy4ePbw5gVxf+rNVEcmonAYQpUHE=",
-                "signature": "razfE2oxoCYJjLSKbzoiudWQNTbG+jeoyaEKw5iWZ40aIHs/wBuzTVK+g+6GzB6xs73plfTqwSja9po1xJgNrA=="
-              }
-            ],
-            "memo": "10fc3196c32afc18091aa8a0614bcc8b519df7d9@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1l5g5skk8pvt37mqte4w9l2qscqshylztr93edr",
-                  "validator_address": "cosmosvaloper1l5g5skk8pvt37mqte4w9l2qscqshylztx39vps",
-                  "pubkey": "cosmosvalconspub1zcjduepq3rraw8zv5uv302n7ggl6klc4n5pavwdk787xu95nk5zlgwcky48qggreca",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyECFKluIGT/RxnqSLdBOnRAjgj9EbSdmCjWcKBHEd1cFFs=",
-                "signature": "YbcQrTBXpv7iw1xHaQG76uvkxM+552U/PGAY8bjRvTYFHY/pR1KbCXTf6rQCp8hRDRPQqlprP8duHf8uij+ITA=="
-              }
-            ],
-            "memo": "81a7f070c04aca3eda0c9338620be3b9403dab7d@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1dz46hadgx3jta5egaf8zq0ykucfudhskzq9gyn",
-                  "validator_address": "cosmosvaloper1dz46hadgx3jta5egaf8zq0ykucfudhsk853agq",
-                  "pubkey": "cosmosvalconspub1zcjduepqra4xlcrf83jut8rr6fz0znswntnh5mk6lu70dks4rzmhamumu48snr3kr2",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEC8wNhkSvdMdaYcdCrMpwqZV5ki56fvauiCPU56szDN0o=",
-                "signature": "9W9arMh39QgOLRJHSOeWXaxT1JgmLXhkKRUXEabg4Jt+/4Zr5PaMaTaeAsPXVPS21/73Bis/6YZaPUKux2Wzlg=="
-              }
-            ],
-            "memo": "84661fd2f8c3e88d3e079e9307affaf40df0b479@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1ggygt8dltglpzh05nzar7c4lh2dasfq0xaeplu",
-                  "validator_address": "cosmosvaloper1ggygt8dltglpzh05nzar7c4lh2dasfq0rfd5n0",
-                  "pubkey": "cosmosvalconspub1zcjduepq4jj0gcky3nkaycpzc0an0szpcjdu8l9ujxvsju7elrs9r0y60rcqm8j2qz",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEDz3U9ppgc8ZmVhOPgb+gEkvs5sXOf8dxHaqf5Vls1Q/k=",
-                "signature": "RDsgEyDl5oVReiBXoHbIaviNZETDHkPYS+g6X3G/1GU/KpS+K31Hejew+U1vPlN+TOMXJwZOuXJbNYZSc7RRYg=="
-              }
-            ],
-            "memo": "99f26611e457fd3da29bad607c4689ec6d110884@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1qrqhsf7xjralgmrqa0cwtgctl8dr7vjrpee8f2",
-                  "validator_address": "cosmosvaloper1qrqhsf7xjralgmrqa0cwtgctl8dr7vjryddj9e",
-                  "pubkey": "cosmosvalconspub1zcjduepqkvqt35xgk5rrvcy5uhdfq5df5kcakr8f7rcll2qe2awm40m9qvssrg3gzr",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEDfa90frQKHf7LfrLl8JhkPMTRy9gsjHGoBvi2vP9gECI=",
-                "signature": "Ofag4vWScQM19FFYnhQaNmBG1y+w6aNGuNKVL/e4c0AyfO7Q6kCSKYjCXupKgBF2TS3jC2iA/NJ94ylxtah64w=="
-              }
-            ],
-            "memo": "b35a94671584f5281274a6e612b56e203354d029@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos16n2fjwyexxpp4z652zfza7h9ljnt067phhyy5n",
-                  "validator_address": "cosmosvaloper16n2fjwyexxpp4z652zfza7h9ljnt067pjrs3cq",
-                  "pubkey": "cosmosvalconspub1zcjduepqzkfmh4q73l2r7y3th06ps9nmtugff5r7x7padwgqj230yw8jfalsfe5zwr",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyED+OkHD+W62VFKL9Osy4ePbw5gVxf+rNVEcmonAYQpUHE=",
-                "signature": "z1zVYux/lT9uSK9mn/QYtAzMdgkM3VtgteaBdEW09jdiLWmnEJzoHXKdVuMXeHe/FJZ72BL5k5h5GE9szjauzA=="
-              }
-            ],
-            "memo": "be64f596cc9a007076f6311ec96c5f8fe64ddd0e@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1se0l0cykenn4yrpxe5hvhjekmgdp7vw7ceyd30",
-                  "validator_address": "cosmosvaloper1se0l0cykenn4yrpxe5hvhjekmgdp7vw7adscau",
-                  "pubkey": "cosmosvalconspub1zcjduepqg466j8vrl3kgkmgs2f89y00cgnncfvcf9epradyea9ffjtfxattqehrfy2",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyECQA3+GaTovJGkY/f/czgNFx281BAjZWYkAM2drshqSnc=",
-                "signature": "mthnOPGW8MkBK/fV9x1D8EvcDxm3ftXxhqeBE7uK9HkZkWsFrCk1i4CYd5vFx0zVDCrZifo2PycHbUmpkYp/9w=="
-              }
-            ],
-            "memo": "c7e36150c03968fae5a3aa3d8d89bbec885b3469@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1dz46hadgx3jta5egaf8zq0ykucfudhskzq9gyn",
-                  "validator_address": "cosmosvaloper1dz46hadgx3jta5egaf8zq0ykucfudhsk853agq",
-                  "pubkey": "cosmosvalconspub1zcjduepqlc6z0l64uv6ukspu04yfxcyucaq4vvavhvh5gkkwgks9yacw2sgqy77u3a",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEC8wNhkSvdMdaYcdCrMpwqZV5ki56fvauiCPU56szDN0o=",
-                "signature": "VjDnBPk+iFigZ4LtPAmDQgGO1AmmuKt3xcUmJX4zgp4sqwExxGr5TF+L8Y9Bhcb6aEMcXweqIuJGuLzmJuQzBA=="
-              }
-            ],
-            "memo": "d20f603c9cb46004e409ff5a590f16de691c522b@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1ggygt8dltglpzh05nzar7c4lh2dasfq0xaeplu",
-                  "validator_address": "cosmosvaloper1ggygt8dltglpzh05nzar7c4lh2dasfq0rfd5n0",
-                  "pubkey": "cosmosvalconspub1zcjduepqjzatnyx32paddnh87u40t38y6mpxwmh98st6pep9umexm9wtgf6sn6q6fj",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEDz3U9ppgc8ZmVhOPgb+gEkvs5sXOf8dxHaqf5Vls1Q/k=",
-                "signature": "OTPA3gOx0tURb28Tl/XeiSvnIrRWVXhoYFYg2JfLib8J/OvIqSI8Vf3EjATcGVTM0PsldrL+A0VzRBQ93DaATg=="
-              }
-            ],
-            "memo": "e1b49842126bb2ea6f02e83b4b5c0a2008c941ad@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1qrqhsf7xjralgmrqa0cwtgctl8dr7vjrpee8f2",
-                  "validator_address": "cosmosvaloper1qrqhsf7xjralgmrqa0cwtgctl8dr7vjryddj9e",
-                  "pubkey": "cosmosvalconspub1zcjduepqwhzxk6qqd26drssjcv365wzecuv4hq9c74q7cg98e6zen5rqmlsqw099n2",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEDfa90frQKHf7LfrLl8JhkPMTRy9gsjHGoBvi2vP9gECI=",
-                "signature": "AcI/sfqnkUldoKwDOMJxAJ8hLsRqs77W8qUWTKkWMPp4Ze7RhhKvgczzS9S3z2jXksK1nayAzT4WU1lmxpBzOw=="
-              }
-            ],
-            "memo": "e31a832c73114edc121885181ed997d6d0776928@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1se0l0cykenn4yrpxe5hvhjekmgdp7vw7ceyd30",
-                  "validator_address": "cosmosvaloper1se0l0cykenn4yrpxe5hvhjekmgdp7vw7adscau",
-                  "pubkey": "cosmosvalconspub1zcjduepqna8lptsxd5mjkcgngakz8n7cxv7eamvpeaypfkv32h4qt2jmqyzqvvdep6",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyECQA3+GaTovJGkY/f/czgNFx281BAjZWYkAM2drshqSnc=",
-                "signature": "PhMAsP+b5iLFfsGjIxE/8SVvCY5rZ5SLYFGPtcTRU/R9IP8lzTH3cUxsArP9dJ8BKDGfuNSRAZbK0juxjIoYwQ=="
-              }
-            ],
-            "memo": "f9ba632ffc7cc62989f473b26c5361fe79b345b1@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-2"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1l5g5skk8pvt37mqte4w9l2qscqshylztr93edr",
-                  "validator_address": "cosmosvaloper1l5g5skk8pvt37mqte4w9l2qscqshylztx39vps",
-                  "pubkey": "cosmosvalconspub1zcjduepqcnzn0lpue88jsc92c0aven6u3azkv5kqrkth8ccywyv5kr5fc2as8znnhc",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyECFKluIGT/RxnqSLdBOnRAjgj9EbSdmCjWcKBHEd1cFFs=",
-                "signature": "qN8PGooqFuhkGigfFNWaO0uiuYCDf/kSc72rshncn6lAEKywp0QQmThQaXBWgbOD1lUJQ6KkWrOfhMG1Xl6pAA=="
-              }
-            ],
-            "memo": "fc17ac58f10906950be1d53725b312b26aaa34a3@10.138.0.32:26656"
-          }
-        }
-      ]
-    },
     "capability": {
       "index": "1",
       "owners": []
-    },
-    "mint": {
-      "minter": {
-        "inflation": "0.130000000000000000",
-        "annual_provisions": "0.000000000000000000"
-      },
-      "params": {
-        "mint_denom": "stake",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
-        "goal_bonded": "0.670000000000000000",
-        "blocks_per_year": "6311520"
-      }
-    },
-    "distribution": {
-      "params": {
-        "community_tax": "0.020000000000000000",
-        "base_proposer_reward": "0.010000000000000000",
-        "bonus_proposer_reward": "0.040000000000000000",
-        "withdraw_addr_enabled": true
-      },
-      "fee_pool": {
-        "community_pool": []
-      },
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "params": null,
-    "transfer": {
-      "portid": "transfer"
     }
   }
 }

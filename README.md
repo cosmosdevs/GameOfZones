@@ -4,6 +4,38 @@ Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepa
 
 Registration is closed.
 
+## Game of Zones Phase 2020
+
+The Game of Zones Hub for Phase 2 is launching on May 10th. The
+
+The Genesis [file](goz-genesis.json) is this repo. `chain-id`= `gameofzoneshub-2`
+
+Public available sentry nodes are coming shortly.
+
+This hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
+
+You should have recieved `10 million` doubloons to your account.
+
+Scoring will begin at **Phase 2 launches at 12:00am PST on 5/11**
+
+
+### Phase 2 Versions
+
+Players should use the following versions of `relayer`, `gaia` and/or `cosmos-sdk` respectively to participate in Phase 1:
+
+
+``` bash
+❯ gaiad version --long
+name: gaia
+server_name: gaiad
+client_name: gaiacli
+version: 0.0.0-196-gbde5e9c
+commit: bde5e9c003256cfb6417d3441889bafd14089e0b
+build_tags: netgo,ledger
+go: go version go1.14.2 darwin/amd64
+
+```
+
 ## Game of Zones Phase 1
 
 Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones Hub.
