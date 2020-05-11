@@ -1,4 +1,4 @@
 {
     "chain_id":"Protofire.io",
-    "node_addr":"tcp://3.134.115.80:26657"
+    "node_addr":"tcp://18.222.10.169:26657"
 }
