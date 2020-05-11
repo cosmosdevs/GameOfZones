@@ -110,6 +110,28 @@ commit: 2282f8b33c7025a5e9dc6d7eacfb8c1ad9572897
 cosmos-sdk: v0.34.4-0.20200430150743-930802e7a13c
 go: go1.14 darwin/amd64
 ```
+## Phase 2: Liveness
+
+Phase 2 of Game of Zones will begin Monday, May 11th at 12am PST // 7am UTC. 
+
+The main goal of the second phase of Game of Zones is to focus on throughput, and the winning team will be the team that relays the most packets on the GoZ Hub.  In terms of scoring, 
+
+* Packets relayed to the hub by your relayer key are the most important metric to judge winning. If we were using a point system for scoring, these packets would be worth 1 point.
+* Packets relayed from the hub are the second most important metric for the week. If we were scoring these packets using a point system, they would be worth 0.5 points. 
+* Packets relayed among other chains are less important to your team’s performance than the first two metrics mentioned above. If we were using a point system for scoring, these packets would be worth 0.1 points.
+
+Additionally, for Phase 2:
+
+* All teams should append `-2` to their chain ID for Phase 2 of the competition. 
+* Given current issues with RPC, we recommend that all teams run a full node as increasing the number of operational sentry nodes will help improve overall stability.
+* If your team is relaying packets with a different address than the one that was shared with us for registration, we will be unable to see or count your performance for the week. 
+
+## Phase 2 Software
+
+GoZ Hub 2 will run on: 
+* Cosmos SDK v0.34.4-0.20200507135526-b3cada10017d 
+* Gaia v0.0.1-0.20200507172327-bde5e9c00325 m
+* The latest version of the Relayer available here: https://github.com/iqlusioninc/relayer/pull/230
 
 ## Code of Conduct
 
