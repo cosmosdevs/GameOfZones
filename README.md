@@ -4,7 +4,61 @@ Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepa
 
 Registration is closed.
 
-## Phase 1: Liveness
+## Game of Zones Phase 2
+
+The Game of Zones Hub for Phase 2 is launching on May 10th. The
+
+See Scoring guidlines [below](#phase-2-liveness).
+
+The Genesis [file](goz-genesis.json) is this repo. `chain-id`= `gameofzoneshub-2`
+
+Public available sentry nodes are 
+
+``` txt
+6ed008bf3a2ad341d84391bf47ea46e75a87e35e@35.233.155.199:26656
+7cb9cbba21fdc3b004f098c116e5e2c2ac77ddfb@34.83.218.4:26656
+``` 
+
+Seed Node
+
+``` txt
+d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
+```
+
+This hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
+
+You should have recieved `10 million` doubloons to your account.
+
+Scoring will begin at **Phase 2 launches at 12:00am PST on 5/11**
+
+
+### Phase 2 Versions
+
+Players should use the following versions of `relayer`, `gaia` and/or `cosmos-sdk` respectively to participate in Phase 1:
+
+
+``` bash
+❯ gaiad version --long
+name: gaia
+server_name: gaiad
+client_name: gaiacli
+version: 0.0.0-196-gbde5e9c
+commit: bde5e9c003256cfb6417d3441889bafd14089e0b
+build_tags: netgo,ledger
+go: go version go1.14.2 darwin/amd64
+
+❯ rly version
+version: 0.5.0
+commit: 427afec4ed60170d6dcfe0a1c3b25d86ca8433be
+cosmos-sdk: v0.34.4-0.20200507135526-b3cada10017d
+gaia: v0.0.1-0.20200507172327-bde5e9c00325
+go: go1.14.2 darwin/amd64
+
+
+
+```
+
+## Game of Zones Phase 1
 
 Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones Hub. **Phase 1 of the competition will launch on Wednesday, May 6th at 12AM PST/ 7AM UTC.** The Game of Zones scoreboard will be available to participants several hours after the competition kicks off.
 
@@ -73,13 +127,6 @@ Additionally, for Phase 2:
 * All teams should append `-2` to their chain ID for Phase 2 of the competition. 
 * Given current issues with RPC, we recommend that all teams run a full node as increasing the number of operational sentry nodes will help improve overall stability.
 * If your team is relaying packets with a different address than the one that was shared with us for registration, we will be unable to see or count your performance for the week. 
-
-## Phase 2 Software
-
-GoZ Hub 2 will run on: 
-* Cosmos SDK v0.34.4-0.20200507135526-b3cada10017d 
-* Gaia v0.0.1-0.20200507172327-bde5e9c00325 m
-* The latest version of the Relayer available here: https://github.com/iqlusioninc/relayer/pull/230
 
 ## Code of Conduct
 
