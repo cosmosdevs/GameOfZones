@@ -10,7 +10,18 @@ The Game of Zones Hub for Phase 2 is launching on May 10th. The
 
 The Genesis [file](goz-genesis.json) is this repo. `chain-id`= `gameofzoneshub-2`
 
-Public available sentry nodes are coming shortly.
+Public available sentry nodes are 
+
+``` txt
+6ed008bf3a2ad341d84391bf47ea46e75a87e35e@35.233.155.199:26656
+7cb9cbba21fdc3b004f098c116e5e2c2ac77ddfb@34.83.218.4:26656
+``` 
+
+Seed Node
+
+``` txt
+d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
+```
 
 This hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
 
@@ -33,6 +44,15 @@ version: 0.0.0-196-gbde5e9c
 commit: bde5e9c003256cfb6417d3441889bafd14089e0b
 build_tags: netgo,ledger
 go: go version go1.14.2 darwin/amd64
+
+❯ rly version
+version: 0.5.0
+commit: 427afec4ed60170d6dcfe0a1c3b25d86ca8433be
+cosmos-sdk: v0.34.4-0.20200507135526-b3cada10017d
+gaia: v0.0.1-0.20200507172327-bde5e9c00325
+go: go1.14.2 darwin/amd64
+
+
 
 ```
 
