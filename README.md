@@ -4,7 +4,7 @@ Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepa
 
 Registration is closed.
 
-## Game of Zones Phase 2020
+## Game of Zones Phase 2
 
 The Game of Zones Hub for Phase 2 is launching on May 10th. The
 
@@ -58,39 +58,55 @@ go: go1.14.2 darwin/amd64
 
 ## Game of Zones Phase 1
 
-Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones Hub.
+Starting on May 1st, the iqlusion team has launched the iqlusion Game of Zones Hub. **Phase 1 of the competition will launch on Wednesday, May 6th at 12AM PST/ 7AM UTC.** The Game of Zones scoreboard will be available to participants several hours after the competition kicks off.
 
 The Genesis [file](goz-genesis.json) is this repo.
 
-We have a publicly available node on over p2p
-at `tcp://6e4e0fad3d152b4086e24fd84602f71c6815832d@35.233.155.199:26656` and open rpc at `35.233.155.199:26657`.
+We have a publicly available sentry nodes available over p2p:
+
+```
+tcp://7cb9cbba21fdc3b004f098c116e5e2c2ac77ddfb@34.83.218.4:26656
+tcp://6e4e0fad3d152b4086e24fd84602f71c6815832d@35.233.155.199:26656
+tcp://ef36b3167b8599c46b0daf799f089068360c3911@34.83.0.237:26656
+```
+
+As well as the following open RPC endpoints:
+```
+http://34.83.218.4:26657
+http://35.233.155.199:26657
+http://34.83.0.237:26657
+```
+
+And 1 seed node:
+```
+tcp://d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
+```
 
 This hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
 
 You should have recieved `10 million` doubloons to your account.
 
-We will begin scoring at 10 am Pacific time on May 4th. Use the weekend to get your chains and relayers connected.
 
-### Phase 1 - Versions
+### Software for Phase 1
 
 Players should use the following versions of `relayer`, `gaia` and/or `cosmos-sdk` respectively to participate in Phase 1:
 
 ``` bash
-CosmosSDK: 750c218 (PR: https://github.com/cosmos/cosmos-sdk/pull/6127)
-Gaia: 9f47782 (PR: https://github.com/cosmos/gaia/pull/386)
+CosmosSDK: 7557f0e (PR (closed): https://github.com/cosmos/cosmos-sdk/pull/6127)
+Gaia: b617e2b (PR: https://github.com/cosmos/gaia/pull/386)
 $ gaiad version --long
 name: gaia
 server_name: gaiad
 client_name: gaiacli
-version: 0.0.0-185-g9f47782
-commit: 9f47782515341f65505b25eba5d7ba55f5d091d2
+version: 0.0.0-186-gb617e2b
+commit: b617e2bd10f179f8a9722c0d9e329a16611e6e2a
 build_tags: netgo,ledger
 go: go version go1.14 darwin/amd64
 
-Relayer: 6685579 (PR: https://github.com/iqlusioninc/relayer/pull/221)
+Relayer: 2282f8b (PR: https://github.com/iqlusioninc/relayer/pull/221)
 $ rly version
-version: 0.3.1-3-g6685579
-commit: 66855795d3e9cef3c84dcc9fda20d13cb5d6ff4f
+version: 0.3.1-5-g2282f8b
+commit: 2282f8b33c7025a5e9dc6d7eacfb8c1ad9572897
 cosmos-sdk: v0.34.4-0.20200430150743-930802e7a13c
 go: go1.14 darwin/amd64
 ```
@@ -101,7 +117,7 @@ The Game of Zones team is dedicated to providing an inclusive and harrassment fr
 
 ## The Challenge
 
-Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives. In addition to completing these objectives, your team will need to keep a persistent connection alive by sending at least 1 packet per connection at least every 90 minutes to be eligible to win.
+Game of Zones will launch on May 1, 2020, and will comprise three separate, week-long stages with different Capture-the-Flag style objectives. 
 
 *Weekly Challenge Rewards:*
 
@@ -161,7 +177,7 @@ Save these important competition dates on your calendar:
 * ✅-Registration for Game of Zones closes on April 25, 2020 at 11:59pm PST.-
 * Game of Zones will begin on Friday, May 1, 2020.
 * The Official GoZ Opening Ceremonies Live Stream will be held on Friday, May 1, 2020 at 9am PST on our @cosmosdevs Twitch channel.
-  * **Phase 1 launches at 12:00 am PST on 5/4** and ends at 11:59am PST on 5/8, and the P1 Live Stream will be on 5/8 at 12:00pm PST.
+  * **Phase 1 launches at 12:00 am PST on 5/6** and ends at 11:59am PST on 5/10, and the P1 Live Stream will be on 5/8 at 12:00pm PST.
     * **Phase 2 launches at 12:00am PST on 5/11** and ends at 11:59PM PST on 5/15, and the P2 Live Stream will be on 5/15 at 12:00pm PST.
     * **Phase 3 launches at 12:00am PST on 5/18** and ends at 11:59pm PST on 5/22, and the P3 Live Stream will be on 5/22 at 12:00pm PST.
 
