@@ -8,6 +8,8 @@ Registration is closed.
 
 The Game of Zones Hub for Phase 2 is launching on May 10th. The
 
+See Scoring guidlines [below](#phase-2-liveness).
+
 The Genesis [file](goz-genesis.json) is this repo. `chain-id`= `gameofzoneshub-2`
 
 Public available sentry nodes are 
@@ -125,13 +127,6 @@ Additionally, for Phase 2:
 * All teams should append `-2` to their chain ID for Phase 2 of the competition. 
 * Given current issues with RPC, we recommend that all teams run a full node as increasing the number of operational sentry nodes will help improve overall stability.
 * If your team is relaying packets with a different address than the one that was shared with us for registration, we will be unable to see or count your performance for the week. 
-
-## Phase 2 Software
-
-GoZ Hub 2 will run on: 
-* Cosmos SDK v0.34.4-0.20200507135526-b3cada10017d 
-* Gaia v0.0.1-0.20200507172327-bde5e9c00325 m
-* The latest version of the Relayer available here: https://github.com/iqlusioninc/relayer/pull/230
 
 ## Code of Conduct
 
