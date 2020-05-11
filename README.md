@@ -12,7 +12,11 @@ See Scoring guidlines [below](#phase-2-liveness).
 
 The Genesis [file](goz-genesis.json) is this repo. `chain-id`= `gameofzoneshub-2`
 
-Public available sentry nodes are 
+There is a node with open RPC on port 80 at http://35.190.35.11/
+
+We are rate limiting connections so we reccommend running your own full node.
+
+Public available sentry nodes are available at
 
 ``` txt
 6ed008bf3a2ad341d84391bf47ea46e75a87e35e@35.233.155.199:26656
@@ -27,7 +31,9 @@ d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
 
 This hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
 
-You should have recieved `10 million` doubloons to your account.
+You should have recieved `1 billion` doubloons to your account.
+
+Gas prices are set at `0.025doubloons`.
 
 Scoring will begin at **Phase 2 launches at 12:00am PST on 5/11**
 
