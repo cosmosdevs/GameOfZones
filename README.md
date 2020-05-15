@@ -186,7 +186,7 @@ Save these important competition dates on your calendar:
   * Phase 2 will begin Monday, May 25th at 7:00am UTC, and will end on Friday, May 28th at 6:59am UTC. 
   * Phase 3 will begin on Monday, June 1st at 7:00am UTC, and will end on Friday, June 6th at 6:59am UTC. 
 
-* Game of Zones will close on Friday, May 22nd, 2020 at 6:49am UTC.
+* Game of Zones will close on Friday, June 6th, 2020 at 6:49am UTC.
 
 * The Official GoZ Closing Ceremonies Live Stream will be held on Wednesday, June 10th at 7:00pm UTC.
 
