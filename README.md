@@ -4,22 +4,22 @@ Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepa
 
 Registration is closed.
 
-## Competition Details
+## Connecting to the Hub
 
-The Game of Zones Hub for Phase 1b is launching on May 15th at 1:00am UTC!
+The Game of Zones Hub for Phase 1b began launching on May 15th around 1:00am UTC, and has achieved well over the 24 hours of required stability needed to begin the next phase of the competition. A complete roster of participating teams is available available [here](https://github.com/cosmosdevs/GameOfZones/blob/phase1b/goz-roster.csv).
 
-* The Genesis will be available soon. 
-* The ID for the hub will be `gameofzoneshub-1b`
+* The genesis file is available [here](https://github.com/cosmosdevs/GameOfZones/blob/c22b90c516b4fb939c40b0f6f913739b374ee6e3/goz-genesis.json).
+* The ID for the hub will be `gameofzoneshub-1b`.
 * Connections are rate limited, so we recommend that all teams run a full node for the competition. 
 * There is a node with open RPC on port 80 at http://35.190.35.11/
-* The hub will be centralized during the combination. The staking tokens are all controlled by iqlusion and `doubloons` will be issued to all players.
- * Each team will receive an allocation of `doubloons` for the competition, and gas prices are set at `0.025doubloons`.
+* Each team will receive an allocation of `doubloons` for the competition, and gas prices are set at `0.0025doubloons`.
 
 Publicly available sentry nodes are available at:
 
 ``` txt
 6ed008bf3a2ad341d84391bf47ea46e75a87e35e@35.233.155.199:26656
 7cb9cbba21fdc3b004f098c116e5e2c2ac77ddfb@34.83.218.4:26656
+ef36b3167b8599c46b0daf799f089068360c3911@34.83.0.237:26656
 ``` 
 
 Seed Node
@@ -27,6 +27,9 @@ Seed Node
 ``` txt
 d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
 ```
+The hub will be centralized during the combination. The staking tokens are all controlled by iqlusion, and an allocation of `doubloons` will be issued to all teams registered in the competition.
+
+Documentation about trust periods is available [here](https://github.com/cosmosdevs/GameOfZones/pull/167).
 
 ## Game of Zones Phase 1b
 
@@ -34,7 +37,7 @@ Phase 1b will begin Monday, May 18th at 7:00am UTC, and will end on Thursday, Ma
 
 To recapture the original spirit of Phase 1a, the objectives for Phase 1b will be different than the initial challenge.  During Phase 1b, we will be limiting the number of tokens given to each team to improve the stability of the hub, removing restrictions on trust periods in the software, and disqualifying any team that pools their genesis allocated doubloons for additional gas.
 
-* Every team should append -1b to their chain ID. An official Team Roster that maps chain IDs and Relayer addresses to team names will be published on the GoZ Github repository on May 14th at 7pm UTC. 
+* Every team should append -1b to their chain ID. An official Team Roster that maps chain IDs and Relayer addresses to team names is available here. 
 * Trust periods will be unrestricted on the software. 
 * Players will be restricted to `1.25 million doubloons` in the addresses.  
 * This amount should provide enough tokens for a minimum trust period of 10 minutes.  
@@ -46,7 +49,7 @@ The winning team for Phase 1b will have the smallest trust period on their clien
 
 In terms of judging, we will combine the data from Phase 1a and Phase 1b to declare a challenge winner. During this phase of the competition, we expect to provide an overview of the active clients published to the Game of Zones GitHub repo multiple times a day.
 
-## Launching Phase 1b
+## Software for Phase 1b
 
 The Game of Zones Team will begin the launch process for the hub on Friday, May 15th around 1:00am UTC. In order to connect to the hub, you will need to be using the following versions of software: 
 
@@ -133,7 +136,7 @@ Game of Zones will launch on May 1, 2020, and will comprise three separate, week
 * Phase 2: The main objective for Phase 2 is throughput, and each team should strive to relay as many packets as possible with their Relayer key.
   * The Weekly Challenge Winner for Phase 2 will be the team that relays the most packets during this phase of the competition.
 
-* Week 3: The main objective for Week 3 is to stress test the security model of IBC, and the winner will be the team that executes the best confusion or deception attacks against other zones.
+* Phase 3: The main objective for Week 3 is to stress test the security model of IBC, and the winner will be the team that executes the best confusion or deception attacks against other zones.
   * The Weekly Challenge Winner for Phase 3 will be the team who develops the best attacks or custom protocols to gain an advantage over other competitors, or a team who successfully executes a double spend attack. We expect competitors to provide technical write ups that include a Proof-of-Concept to show the work they’ve done to win.
 In addition to the weekly challenges, there will also be a handful of opportunities to win additional prizes based on your overall competition performance.
 
@@ -149,7 +152,7 @@ In addition to the weekly challenges, there will also be a handful of opportunit
 
 The goal of running an adversarial testnet challenge is to stress test the protocol-level of the Cosmos network and the IBC module. As the community and network operators become acquainted with the IBC module and setting up zones, the code will be pushed to its limit (and perhaps beyond!), as a way to observe its performance before it is released as production-ready software.
 
-Throughout the competition, we expect to see validators running their own zones and attempting to attack other zones through spamming or exploiting configurations. We also expect to see non-traditional configurations of core protocols and software that might provide specific advantages to our network operators. Additionally, we hope to observe numerous multi-hop transactions, proposer priority attacks, double spending attacks, unnoticed equivocations, and other confusion attacks that attempt to disrupt communication and operations between zones and relayers.During Phase 1b of the challenge, any team that pools their genesis allocated doubloons for additional gas will be disqualified.
+Throughout the competition, we expect to see validators running their own zones and attempting to attack other zones through spamming or exploiting configurations. We also expect to see non-traditional configurations of core protocols and software that might provide specific advantages to our network operators. Additionally, we hope to observe numerous multi-hop transactions, proposer priority attacks, double spending attacks, unnoticed equivocations, and other confusion attacks that attempt to disrupt communication and operations between zones and relayers. During Phase 1b of the challenge, any team that pools their genesis allocated doubloons for additional gas will be disqualified.
 
 During the course of the game, it is forbidden to exploit security vulnerabilities in attempt to win the challenge. Participants who exploit software vulnerabilities in the IBC module or Cosmos Network will be disqualified. Participants who use social engineering or malware to attack fellow competitors will also be disqualified from the challenge. If you find a software vulnerability during the competition, please report it to  [security@cosmosnetwork.dev](http://security@cosmosnetwork.dev/)  — once IBC is added to the bug bounty program, all security bugs reported will be eligible for a bonus reward.
 
@@ -186,7 +189,7 @@ Save these important competition dates on your calendar:
   * Phase 2 will begin Monday, May 25th at 7:00am UTC, and will end on Friday, May 28th at 6:59am UTC. 
   * Phase 3 will begin on Monday, June 1st at 7:00am UTC, and will end on Friday, June 6th at 6:59am UTC. 
 
-* Game of Zones will close on Friday, June 6th, 2020 at 6:49am UTC.
+* Game of Zones will close on Friday, June 6th, 2020 at 6:59am UTC.
 
 * The Official GoZ Closing Ceremonies Live Stream will be held on Wednesday, June 10th at 7:00pm UTC.
 
