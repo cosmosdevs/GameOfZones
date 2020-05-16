@@ -6,9 +6,9 @@ Registration is closed.
 
 ## Connecting to the Hub
 
-The Game of Zones Hub for Phase 1b began launching on May 15th around 1:00am UTC, and has achieved well over the 24 hours of required stability needed to begin the next phase of the competition. A complete roster of participating teams is available available [here](https://github.com/cosmosdevs/GameOfZones/blob/phase1b/goz-roster.csv).
+The Game of Zones Hub for Phase 1b began launching on May 15th around 1:00am UTC, and has achieved well over the 24 hours of required stability needed to begin the next phase of the competition. A complete roster of participating teams is available available [here](goz-roster.csv).
 
-* The genesis file is available [here](https://github.com/cosmosdevs/GameOfZones/blob/c22b90c516b4fb939c40b0f6f913739b374ee6e3/goz-genesis.json).
+* The genesis file is available [here](goz-genesis.json).
 * The ID for the hub will be `gameofzoneshub-1b`.
 * Connections are rate limited, so we recommend that all teams run a full node for the competition. 
 * There is a node with open RPC on port 80 at http://35.190.35.11/
@@ -29,7 +29,7 @@ d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
 ```
 The hub will be centralized during the combination. The staking tokens are all controlled by iqlusion, and an allocation of `doubloons` will be issued to all teams registered in the competition.
 
-Documentation about trust periods is available [here](https://github.com/cosmosdevs/GameOfZones/pull/167).
+Documentation about trust periods is available [here](trust_period_phase1b.md).
 
 ## Game of Zones Phase 1b
 
