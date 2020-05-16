@@ -84,7 +84,7 @@ Cypher Core,cosmos1ww8zfd4ts6fac55wt8z5lnm5wdfqy67ldanua8,petomhub-1b,tcp://goz.
 Bitple,cosmos1vndhkx9sdheewhdg58ug7fy388l8wm689gn7jg,plex-1b,tcp://ibc.j96.me:26657
 Protofire,cosmos1y8ejrm82rzaqf5n4n5nx338m6x3u9x082qfqe8,Protofire.io-1b,tcp://3.134.115.80:26657
 pupu,cosmos10xq9nh42m7wd79mel9uhae4xqk7yk7yurs5q2v,pupu-1b,tcp://35.230.42.221:26657
-Pylons,cosmos1jgvmax3xnfq9wgr45m5xjsq9fr62d8uyadtvn9,pylons-1b,tcp://node.pylons.tech:26657
+Pylons,cosmos1kzukf5nkrrezwxlrxlguxljfy3p4zees9e74wg,pylons-1b,tcp://node.pylons.tech:26657
 Meeseeks,cosmos1mhdnss2nd7mx29qnc9gqp4lpxjqdp3j6drhe0v,meeseeks-1b,tcp://validating.for.co.ke:26657
 Regen,cosmos1fnlw6290j037gyff6zdy8rzlv88wr9qn3v4l3h,regengoz-1b,tcp://regengoz.vaasl.io:26657
 ResponsibleChain,cosmos1dtx6e6we59j03grm55zpc3pymz52msx0hsq8ce,responsible-1b,tcp://95.216.204.82:26657
@@ -102,7 +102,7 @@ Stakebird,cosmos1ar20w6rf4ulfljld7xaj4qjklyulr5myw0xqt6,stakebird-1b,tcp://goz.s
 Staked,cosmos1w8ueuqk007aqy33tgfx5yveatlfamapwty47p0,staked-ibc-1b,tcp://ibc.staked.cloud:26657
 stakematic,cosmos1pzgw03td8l5hsa3e6jert6gpjfratxxsm32adg,stakematic-1b,tcp://35.198.125.128:26657
 StakesStone,cosmos1dx2jqcrjfd3y9mvdd56t54j7pa2wgx2qqk0tx2,stakesstonechain-1b,tcp://5.181.51.80:26657
-stakewolf,cosmos1auhk88eyt7y4paywhtv3ykqfzfkmtjzk57aynt,stakewolf-1b,tcp://stakewolf.com:26657
+stakewolf,cosmos1auhk88eyt7y4paywhtv3ykqfzfkmtjzk57aynt,wolfwolf-1b,tcp://stakewolf.com:26657
 Stakin,cosmos1atkhc2che0en0yzy5prh00wqwn5nhclvlgymrm,stakin-1b,tcp://161.35.45.178:26657
 staking-defense,cosmos1c00l9xvwmh4f77pwnnnh5x0fww0x245sdlzlxg,staking-defense-1b,tcp://goz.stakingdefense.org:26657
 Staking Fund,cosmos1a533d3t2k5pynxh3hn3mzjhwe9jmeskqxh3cz9,stakingfund-1b,tcp://ibc.staking.fund:26657
