@@ -1,4 +1,4 @@
 
-    "chain_id":"stoner",
+    "chain_id":"stoner_ibc",
     "node_addr":"tcp://157.230.75.134:26657"
   }
