@@ -11,7 +11,7 @@ Atomic Bombers,cosmos1kmrn6a4wf2sqw6fxemhee9tr6qz46wvl0hdzya,atomicbombers-1b,tc
 Audit.One,cosmos1nknhkw97mj8aelekg7v73am6zlrdc3fd3n2lyc,audit.one-1b,tcp://goz.audit.one:26657
 Alpha Virtual,cosmos1x2f3vpdww36px4r6m40mzjnndn8aghfq8yeda7,avnet-1b,tcp://goz.cosmos.alphavirtual.com:26657
 Aynelis,cosmos1afed0xhvc2hzkn38fpqcfl9m9wjycqw7mtvkag,aynchain-1b,tcp://52.247.127.40:26657
-B-Harvest,cosmos1f9z2gazg52a8n6c06xf2234c9y0tzsgtqv4j8q,B-Harvest-1b,tcp://ibc.bharvest.io:26657
+B-Harvest,cosmos1f9z2gazg52a8n6c06xf2234c9y0tzsgtqv4j8q,B-Harvest,tcp://ibc.bharvest.io:26657
 BitSong,cosmos12m0en3wm0f50w25nzqfxvxu3je0vk3qvwqqxxt,bitsong-goz-1b,tcp://goz-1.bitsong.network:26657
 BlockNgine,cosmos1qmd7y0mw63qcuts0z53sptne6vypen5q00xmww,blockngine-ibc-1b,tcp://rpc.blockngine.io:26657
 BigBeautifulSilverPlate,cosmos1fj9lg5n4demt42t6ey6wfzx4ut9pz6yyltzxyx,BlogChain-1b,tcp://blogchain.xyz:26657
