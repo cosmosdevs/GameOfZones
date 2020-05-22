@@ -4,7 +4,76 @@ Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepa
 
 Registration is closed.
 
-## Connecting to the Hub
+## Connecting to the Hub for Phase 2
+
+The Game of Zones Hub for Phase 2 will launch on Friday, May 22nd, and is expected to achieve over 48 hours of required stability needed to begin the next phase of the competition. 
+
+* A complete roster of participating teams is available [here](https://github.com/cosmosdevs/GameOfZones/blob/68a585bfd759a9f844327bb4dd43413e3d7ea50c/goz-roster.csv).
+* The genesis file will be available soon. The Phase 2 file will be based on the Phase 1b file available [here](https://github.com/cosmosdevs/GameOfZones/blob/master/goz-genesis.json), and will be updated to include `1 billion doubloons` in participants’ accounts, and the chain-id expected for each team. 
+* The ID for the hub will be `gameofzoneshub-2`.
+* Connections are rate limited, so we recommend that all teams run a full node for the competition. 
+* There is a node with open RPC on port 80 at  [http://35.190.35.11/](http://35.190.35.11/) 
+* Each team will receive an allocation of doubloons for the competition, and gas prices are set at `0.0025doubloons`.
+
+The details below are the same as they were for Phase 1b: 
+
+Publicly available sentry nodes are available at:
+
+``` txt
+6ed008bf3a2ad341d84391bf47ea46e75a87e35e@35.233.155.199:26656
+7cb9cbba21fdc3b004f098c116e5e2c2ac77ddfb@34.83.218.4:26656
+ef36b3167b8599c46b0daf799f089068360c3911@34.83.0.237:26656
+``` 
+
+Seed Node
+
+``` txt
+d95a9f97e31f36d0a467e6855c71f5e5b8eccf65@34.83.90.172:26656
+```
+
+The hub will be centralized during the combination. The staking tokens are all controlled by iqlusion, and an allocation of doubloons will be issued to all teams registered in the competition.
+
+
+## Software for Phase 2
+
+The Game of Zones Team will begin the launch process for the hub on Friday, 22nd. In order to connect to the hub, you will need to be using the following versions of software:
+
+Gaia (2d61264) :[https://github.com/cosmos/gaia/releases/tag/goz-phase-2](https://github.com/cosmos/gaia/releases/tag/goz-phase-2)
+Relayer (f7c0b90): https://github.com/iqlusioninc/relayer/releases/tag/v0.5.4
+
+And for custom zone operators, update to the following CosmosSDK version:
+
+Cosmos-SDK: [https://github.com/cosmos/cosmos-sdk/tree/jack/goz-phase-2](https://github.com/cosmos/cosmos-sdk/tree/jack/goz-phase-2)
+
+The Chain ID for the hub will be `gameofzoneshub-2`. For this phase of the competition, teams should append the phase number to their chain ID before phase launch.
+
+
+## Game of Zones Phase 2
+
+**Phase 2 of Game of Zones will officially begin Monday, May 25th at 12am PST  7am UTC.**
+
+The main focus of the second phase of Game of Zones is throughput, and the winning team will be the team that relays the most packets with their relayer key on the GoZ Hub and in the wider Game of Zones network.  All teams will be given `1 billion doubloons `for Phase 2. 
+
+In terms of scoring, 
+
+* Packets relayed to the hub by your relayer key are the most important metric to judge winning. If we were using a point system for scoring, these packets would be worth 1 point.
+
+* Packets relayed from the hub are the second most important metric for the week. If we were scoring these packets using a point system, they would be worth 0.5 points. 
+
+* Packets relayed among other chains are less important to your team’s performance than the first two metrics mentioned above. If we were using a point system for scoring, these packets would be worth 0.1 points.
+
+From a judging perspective, we will only be able to count packets relayed with the Relayer key listed in the Phase 2 Roster. 
+
+
+*  **All teams should append** -2 **to their chain ID for Phase 2 of the competition.** This will help us work through the immense amount of data we expect to analyze to choose a winner, and will ensure that there is no delay in announcing a winner.  An updated roster with the chain IDs we expect to see will be available soon in the GoZ Github repo.
+
+* **If your team is relaying packets with a different address than the one that is listed in the GoZ Roster,** we will be unable to see or count your performance for the week. Over the weekend, we will be confirming that we can communicate with endpoints. If we cannot reach your team’s endpoint, we will contact you via email to resolve this before Phase 2 begins.
+
+* A new scoring dashboard that will shows real-time packets being relayed will be available on Monday, May 25th a few hours after Phase 2 begins. The GoZ Team will be monitoring connections made over the websocket, and will count packets on your chain regardless of where they come from.  
+
+
+
+## Connecting to the Hub for Phase 1b
 
 The Game of Zones Hub for Phase 1b began launching on May 15th around 1:00am UTC, and has achieved well over the 24 hours of required stability needed to begin the next phase of the competition. A complete roster of participating teams is available available [here](goz-roster.csv).
 
