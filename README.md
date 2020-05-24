@@ -45,7 +45,7 @@ And for custom zone operators, update to the following CosmosSDK version:
 
 Cosmos-SDK: [https://github.com/cosmos/cosmos-sdk/tree/jack/goz-phase-2](https://github.com/cosmos/cosmos-sdk/tree/jack/goz-phase-2)
 
-The Chain ID for the hub will be `gameofzoneshub-2`. For this phase of the competition, teams should append the phase number to their chain ID before phase launch.
+The Chain ID for the hub will be `gameofzoneshub-2a`. For this phase of the competition, teams should append the phase number to their chain ID before phase launch.
 
 
 ## Game of Zones Phase 2
