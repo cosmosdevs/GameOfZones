@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2020-05-14T21:32:14.809054498Z",
-  "chain_id": "gameofzoneshub-1b",
+  "genesis_time": "2020-05-23T15:46:17.050233167Z",
+  "chain_id": "gameofzoneshub-2a",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -19,11 +19,292 @@
   },
   "app_hash": "",
   "app_state": {
-    "capability": {
-      "index": "1",
-      "owners": []
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
     },
     "upgrade": {},
+    "params": null,
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2a"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1l5g5skk8pvt37mqte4w9l2qscqshylztr93edr",
+                  "validator_address": "cosmosvaloper1l5g5skk8pvt37mqte4w9l2qscqshylztx39vps",
+                  "pubkey": "cosmosvalconspub1zcjduepq933nw6gyj5veg63nd5c9cl7gvajthg9rq9pppxf4yxgtjnmd3vgqm4warj",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyECFKluIGT/RxnqSLdBOnRAjgj9EbSdmCjWcKBHEd1cFFs=",
+                "signature": "FvnjAY0hASX/v4xCHNlk8LHes9IsFJz2oF+0CeYgWHB2CPq58naAIkycxXvXtyvUaKFo7QYsOc1Axipi+AYCQg=="
+              }
+            ],
+            "memo": "07d42624e0ab7859cadc6256bb459588428f9161@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2a"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1ggygt8dltglpzh05nzar7c4lh2dasfq0xaeplu",
+                  "validator_address": "cosmosvaloper1ggygt8dltglpzh05nzar7c4lh2dasfq0rfd5n0",
+                  "pubkey": "cosmosvalconspub1zcjduepqq63u4fghm6scw4cu5f8rk7nr78h5ux2d4vqw20pn92u4x7v6nhrq07wxgu",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyEDz3U9ppgc8ZmVhOPgb+gEkvs5sXOf8dxHaqf5Vls1Q/k=",
+                "signature": "vIZ5C6BsAiVkepxaqkoHHuz/IKX+uPHxbH4rOqxgLp47cQ5iflf6X9XYgynTeuqUJCi0+LIGFhpHqOsMSjlrWg=="
+              }
+            ],
+            "memo": "1bef97e94d8387a4b3963d5cb0072eb8663551ac@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2a"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1se0l0cykenn4yrpxe5hvhjekmgdp7vw7ceyd30",
+                  "validator_address": "cosmosvaloper1se0l0cykenn4yrpxe5hvhjekmgdp7vw7adscau",
+                  "pubkey": "cosmosvalconspub1zcjduepqe93np2zt72p43drly9yg7k3kca948qh7vj7m95aktq26lhsqrruspuc87m",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyECQA3+GaTovJGkY/f/czgNFx281BAjZWYkAM2drshqSnc=",
+                "signature": "vtfAZwUcMbfSkGUqoT1DES84ha+jnFdWcxuLxTzlcOYlA13o5cSsniiI2JVkcTVYGpGjyEjAEVo7heETvgf6Tg=="
+              }
+            ],
+            "memo": "2189b32dbf798a3529d544dbf02d973251103619@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2a"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos16n2fjwyexxpp4z652zfza7h9ljnt067phhyy5n",
+                  "validator_address": "cosmosvaloper16n2fjwyexxpp4z652zfza7h9ljnt067pjrs3cq",
+                  "pubkey": "cosmosvalconspub1zcjduepqw89pa973x7c4uf794mucd80tc0r6v55w026ce4pqwte5p5usm2jsqrra4q",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyED+OkHD+W62VFKL9Osy4ePbw5gVxf+rNVEcmonAYQpUHE=",
+                "signature": "EK5AglFp30ZcdJen2fE5w8/AXbqPant+L2HoEhyNNCxSAA4mJTPfabWnEeGJMFNQ8A9IQe/65vR4wPIiRHwHgg=="
+              }
+            ],
+            "memo": "23505ad69206cbaccaaec6761155e52e25731810@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2a"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1qrqhsf7xjralgmrqa0cwtgctl8dr7vjrpee8f2",
+                  "validator_address": "cosmosvaloper1qrqhsf7xjralgmrqa0cwtgctl8dr7vjryddj9e",
+                  "pubkey": "cosmosvalconspub1zcjduepqv6q5pnkmp2e5025kpt86mwdp5wupjnu0fexatjc4557sejs3f74s9y3lxm",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyEDfa90frQKHf7LfrLl8JhkPMTRy9gsjHGoBvi2vP9gECI=",
+                "signature": "ei3Bs8aQn8CLse6x9f111N5+7swCYyNK6PZwYAUxmS5up5/Njb1OF6iPNbOtka3ju/4yNMYZdsk/iEZB0Xl6ng=="
+              }
+            ],
+            "memo": "6100d934c1e632752acc8043cf7637462d8d2b5b@10.138.0.32:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gameofzoneshub-2a"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "cosmos1dz46hadgx3jta5egaf8zq0ykucfudhskzq9gyn",
+                  "validator_address": "cosmosvaloper1dz46hadgx3jta5egaf8zq0ykucfudhsk853agq",
+                  "pubkey": "cosmosvalconspub1zcjduepqx8ycm2nqht0ar2tr653vjf4gp3njuf6c3sx29g3tqnsdj2c3y2ssl7jnw3",
+                  "value": {
+                    "denom": "stake",
+                    "amount": "100000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": "61rphyEC8wNhkSvdMdaYcdCrMpwqZV5ki56fvauiCPU56szDN0o=",
+                "signature": "vzWVnnSa3ymXOlBJWC167eMG9wQXW/NVSJaGOBOXw8UVZUgGZHPd1tI2OD8PL69wgTig9nkGsK6CXTwYIeueUA=="
+              }
+            ],
+            "memo": "fcd8b12018ed74ed32b69f00a8b5092aaeb1b2fd@10.138.0.32:26656"
+          }
+        }
+      ]
+    },
+    "transfer": {
+      "portid": "transfer"
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "create_localhost": true
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": []
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "send_sequences": [],
+        "recv_sequences": []
+      }
+    },
     "gov": {
       "starting_proposal_id": "1",
       "deposits": null,
@@ -46,30 +327,6 @@
         "threshold": "0.500000000000000000",
         "veto": "0.334000000000000000"
       }
-    },
-    "crisis": {
-      "constant_fee": {
-        "denom": "stake",
-        "amount": "1000"
-      }
-    },
-    "evidence": {
-      "evidence": []
-    },
-    "transfer": {
-      "portid": "transfer"
-    },
-    "params": null,
-    "slashing": {
-      "params": {
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
-      },
-      "signing_infos": {},
-      "missed_blocks": {}
     },
     "auth": {
       "params": {
@@ -922,6 +1179,22 @@
         }
       ]
     },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 100,
+        "bond_denom": "stake"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
     "mint": {
       "minter": {
         "inflation": "0.130000000000000000",
@@ -936,6 +1209,24 @@
         "blocks_per_year": "6311520"
       }
     },
+    "evidence": {
+      "evidence": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
     "bank": {
       "send_enabled": true,
       "balances": [
@@ -944,7 +1235,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -966,7 +1257,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -975,7 +1266,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -984,7 +1275,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -993,7 +1284,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1002,7 +1293,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1011,7 +1302,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1020,7 +1311,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1029,7 +1320,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1038,7 +1329,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1047,7 +1338,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1056,7 +1347,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1065,7 +1356,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1074,7 +1365,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1083,7 +1374,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1092,7 +1383,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1101,7 +1392,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1110,7 +1401,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1119,7 +1410,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1128,7 +1419,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1137,7 +1428,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1146,7 +1437,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1155,7 +1446,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1164,7 +1455,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1186,7 +1477,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1195,7 +1486,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1217,7 +1508,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1226,7 +1517,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1235,7 +1526,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1244,7 +1535,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1253,7 +1544,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1262,7 +1553,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1271,7 +1562,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1293,7 +1584,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1302,7 +1593,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1311,7 +1602,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1320,7 +1611,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1329,7 +1620,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1338,7 +1629,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1347,7 +1638,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1356,7 +1647,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1365,7 +1656,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1374,7 +1665,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1383,7 +1674,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1392,7 +1683,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1401,7 +1692,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1410,7 +1701,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1432,7 +1723,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1441,7 +1732,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1450,7 +1741,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1459,7 +1750,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1468,7 +1759,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1477,7 +1768,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1486,7 +1777,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1495,7 +1786,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1504,7 +1795,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1513,7 +1804,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1522,7 +1813,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1531,7 +1822,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1540,7 +1831,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1549,7 +1840,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1558,7 +1849,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1567,7 +1858,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1589,7 +1880,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1598,7 +1889,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1607,7 +1898,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1616,7 +1907,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1625,7 +1916,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1634,7 +1925,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1643,7 +1934,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1652,7 +1943,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1661,7 +1952,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1670,7 +1961,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1679,7 +1970,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1688,7 +1979,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1697,7 +1988,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1706,7 +1997,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1715,7 +2006,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1724,7 +2015,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1733,7 +2024,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1742,7 +2033,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1751,7 +2042,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1760,7 +2051,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1769,7 +2060,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1778,7 +2069,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1787,7 +2078,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1796,7 +2087,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1805,7 +2096,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1814,7 +2105,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1823,7 +2114,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1832,7 +2123,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1841,7 +2132,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1850,7 +2141,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1859,7 +2150,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1868,7 +2159,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1877,7 +2168,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1886,7 +2177,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1895,7 +2186,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1904,7 +2195,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1913,7 +2204,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1922,7 +2213,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1931,7 +2222,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1940,7 +2231,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1949,7 +2240,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1971,7 +2262,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -1980,7 +2271,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2002,7 +2293,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2011,7 +2302,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2020,7 +2311,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2029,7 +2320,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2038,7 +2329,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2047,7 +2338,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2056,7 +2347,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2065,7 +2356,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2074,7 +2365,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2083,7 +2374,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2092,7 +2383,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2101,7 +2392,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2110,7 +2401,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2119,7 +2410,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2128,7 +2419,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2137,7 +2428,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2146,7 +2437,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2155,7 +2446,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2177,7 +2468,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2186,7 +2477,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2195,7 +2486,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2204,7 +2495,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2213,7 +2504,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2222,7 +2513,7 @@
           "coins": [
             {
               "denom": "doubloons",
-              "amount": "1200000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -2241,297 +2532,6 @@
         }
       ],
       "supply": []
-    },
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 100,
-        "max_entries": 7,
-        "historical_entries": 100,
-        "bond_denom": "stake"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
-    },
-    "ibc": {
-      "client_genesis": {
-        "clients": [],
-        "clients_consensus": [],
-        "create_localhost": true
-      },
-      "connection_genesis": {
-        "connections": [],
-        "client_connection_paths": []
-      },
-      "channel_genesis": {
-        "channels": [],
-        "acknowledgements": [],
-        "commitments": [],
-        "send_sequences": [],
-        "recv_sequences": []
-      }
-    },
-    "distribution": {
-      "params": {
-        "community_tax": "0.020000000000000000",
-        "base_proposer_reward": "0.010000000000000000",
-        "bonus_proposer_reward": "0.040000000000000000",
-        "withdraw_addr_enabled": true
-      },
-      "fee_pool": {
-        "community_pool": []
-      },
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
-    },
-    "genutil": {
-      "gentxs": [
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-1b"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1l5g5skk8pvt37mqte4w9l2qscqshylztr93edr",
-                  "validator_address": "cosmosvaloper1l5g5skk8pvt37mqte4w9l2qscqshylztx39vps",
-                  "pubkey": "cosmosvalconspub1zcjduepqt8a7wmrlhw4l8aarzzf2y0xtf7msuqsm2a9kpptlnuhqd29wtn3swnkqy9",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyECFKluIGT/RxnqSLdBOnRAjgj9EbSdmCjWcKBHEd1cFFs=",
-                "signature": "aFG/CL4KpTCdzRRy+s2hs99MYus+K+PjV4jKJyyPtDZTrOln38byHjk162kFTxO/B2k/d59DvV877T6VihxZxQ=="
-              }
-            ],
-            "memo": "10b3b712b7ce5f89a8ed23995dbb3947f466e6a4@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-1b"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1ggygt8dltglpzh05nzar7c4lh2dasfq0xaeplu",
-                  "validator_address": "cosmosvaloper1ggygt8dltglpzh05nzar7c4lh2dasfq0rfd5n0",
-                  "pubkey": "cosmosvalconspub1zcjduepqkw4pmxdfezvufuh78m75lqez0v6yau7nf942mfayekuhcts4v7pqyft357",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEDz3U9ppgc8ZmVhOPgb+gEkvs5sXOf8dxHaqf5Vls1Q/k=",
-                "signature": "tOR18XbPVODanvuxDhrdp7N2ab34+Jn6kFtkYbKZff8SRjeu/43N+mMhDu5Kmrbw7+0NevTknZrjMvzx1A6WiA=="
-              }
-            ],
-            "memo": "147f729b9675029eb0a03732d6f3e145e670cfd9@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-1b"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1se0l0cykenn4yrpxe5hvhjekmgdp7vw7ceyd30",
-                  "validator_address": "cosmosvaloper1se0l0cykenn4yrpxe5hvhjekmgdp7vw7adscau",
-                  "pubkey": "cosmosvalconspub1zcjduepqrmcdau6qqfnse6k7xg8lpkegdh7eekc5my3s04nnwgt3a90x6kas5m5z9c",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyECQA3+GaTovJGkY/f/czgNFx281BAjZWYkAM2drshqSnc=",
-                "signature": "CJkrX+Zga00GXF1Y/Xz5OfTHTzGzxxY2oqSYtUiSFQJBWNddSOEY0TLFPLfsfYcbD8ZS12N3WFMvPjo9HOlNxA=="
-              }
-            ],
-            "memo": "6f2c40e7198b28a276c7a55f0272c039a63580fe@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-1b"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1qrqhsf7xjralgmrqa0cwtgctl8dr7vjrpee8f2",
-                  "validator_address": "cosmosvaloper1qrqhsf7xjralgmrqa0cwtgctl8dr7vjryddj9e",
-                  "pubkey": "cosmosvalconspub1zcjduepq2v09esle85mjhrtt6e5gxlpfqz9kuv8ca6s2s40587alav69hygshnxy5q",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEDfa90frQKHf7LfrLl8JhkPMTRy9gsjHGoBvi2vP9gECI=",
-                "signature": "5UYdV6cJlUU8XbhTjOyUQDXWYchIKbZYWNeTRkzCfJQf+CU8qw5SGoXdgFRopKBHgrcH7vgINGadYJhyuZAn8g=="
-              }
-            ],
-            "memo": "b36da801c7084b08a68ab9cbfb182c4ce9cb90e3@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-1b"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos16n2fjwyexxpp4z652zfza7h9ljnt067phhyy5n",
-                  "validator_address": "cosmosvaloper16n2fjwyexxpp4z652zfza7h9ljnt067pjrs3cq",
-                  "pubkey": "cosmosvalconspub1zcjduepq6uvs48jhxwl394z7cnu9s7qccajup2fnzazsuuzf0gf5csmr9xpqcd0dj9",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyED+OkHD+W62VFKL9Osy4ePbw5gVxf+rNVEcmonAYQpUHE=",
-                "signature": "liwa0Oc6SPBzk7SLLzZ1aZRDQ23MxwsYhI8E8z6OHUh16c6t9QDKyuJ0wIowAos1tAtDc7A04FtHPdy5DmBmpw=="
-              }
-            ],
-            "memo": "cff0202de1cabbd43e30906f8d1e4620d5253bef@10.138.0.32:26656"
-          }
-        },
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "gameofzoneshub-1b"
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "cosmos1dz46hadgx3jta5egaf8zq0ykucfudhskzq9gyn",
-                  "validator_address": "cosmosvaloper1dz46hadgx3jta5egaf8zq0ykucfudhsk853agq",
-                  "pubkey": "cosmosvalconspub1zcjduepqjw2drxq6u0uc9vk2xxvjrnjz092r706uhhv0ggy0etrety9ges2qzee057",
-                  "value": {
-                    "denom": "stake",
-                    "amount": "100000000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": "61rphyEC8wNhkSvdMdaYcdCrMpwqZV5ki56fvauiCPU56szDN0o=",
-                "signature": "7FautGMjDx6bv2a+MCBu0n/1c21eA6KjaEd5l4xh7wwKAdXZlDFpu3filmxELULbG3HMqzq6yBHdYZVa6K5usA=="
-              }
-            ],
-            "memo": "f1dfda44d3d7baa030227d4871f2f689648f3181@10.138.0.32:26656"
-          }
-        }
-      ]
     }
   }
 }
