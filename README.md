@@ -10,7 +10,7 @@ The Game of Zones Hub for Phase 2 will launch on Friday, May 22nd, and is expect
 
 * A complete roster of participating teams is available [here](https://github.com/cosmosdevs/GameOfZones/blob/68a585bfd759a9f844327bb4dd43413e3d7ea50c/goz-roster.csv).
 * The genesis file will be available soon. The Phase 2 file will be based on the Phase 1b file available [here](https://github.com/cosmosdevs/GameOfZones/blob/master/goz-genesis.json), and will be updated to include `1 billion doubloons` in participants’ accounts, and the chain-id expected for each team. 
-* The ID for the hub will be `gameofzoneshub-2`.
+* The ID for the hub will be `gameofzoneshub-2a`.
 * Connections are rate limited, so we recommend that all teams run a full node for the competition. 
 * There is a node with open RPC on port 80 at  [http://35.190.35.11/](http://35.190.35.11/) 
 * Each team will receive an allocation of doubloons for the competition, and gas prices are set at `0.0025doubloons`.
@@ -55,6 +55,8 @@ The Chain ID for the hub will be `gameofzoneshub-2`. For this phase of the compe
 The main focus of the second phase of Game of Zones is throughput, and the winning team will be the team that relays the most packets with their relayer key on the GoZ Hub and in the wider Game of Zones network.  All teams will be given `1 billion doubloons `for Phase 2. 
 
 In terms of scoring, 
+
+* Packets are defined by ics04 and ics20. We will be looking for the relayer `msg.sender` for these events.
 
 * Packets relayed to the hub by your relayer key are the most important metric to judge winning. If we were using a point system for scoring, these packets would be worth 1 point.
 
