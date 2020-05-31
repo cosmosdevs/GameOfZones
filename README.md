@@ -4,6 +4,45 @@ Last year, the Cosmos Network hosted the first-ever adversarial testnet to prepa
 
 Registration is closed.
 
+## Connecting to the Hub for Phase 3
+The Game of Zones Hub for Phase 3 will launch on Sunday, May 31st. There is a single line bug fix from the Phase 2 Hub so we can assume the the stability will persist. The team is continuing to experiment with configuration changes to Tendermint to increase stability and throughput for the remaining competition.
+
+* A complete roster of participating teams is available [here](goz-roster.csv).
+* The genesis file will be available soon. The Phase 3 file will be based on the Phase 2a file available [here](https://github.com/cosmosdevs/GameOfZones/blob/master/goz-genesis.json), and will be updated to include `10 billion doubloons` in participants’ accounts, and the chain-id expected for each team. 
+* The ID for the hub will be `gameofzoneshub-3`.
+* There is a node with open RPC on port 80 at  [http://35.190.35.11/](http://35.190.35.11/) 
+* Each team will receive an allocation of doubloons for the competition, and gas prices are set at `0.0025doubloons`.
+
+``` txt
+c1082e463b3570c93fddcf3a68405cee2c9d5daf@35.233.155.199:26656
+0b9234038eed6704a221aea21d2affaf296ec540@34.83.218.4:26656
+0c625b3d653cc6d5dcc41e28531d811803e56c1d@34.83.0.237:26656
+``` 
+
+
+## Software for Phase 3
+
+The Game of Zones Team will begin the launch process for the hub on Sunday, 31st of May. In order to connect to the hub, you will need to be using the following versions of software:
+
+Gaia (9b59c43) :[https://github.com/cosmos/gaia/releases/tag/goz-phase-3](https://github.com/cosmos/gaia/releases/tag/goz-phase-3)
+Relayer (f7c0b90): https://github.com/iqlusioninc/relayer/releases/tag/v0.5.4
+
+And for custom zone operators, update to the following CosmosSDK version:
+
+Cosmos-SDK: [https://github.com/cosmos/cosmos-sdk/tree/jack/goz-phase-2](https://github.com/cosmos/cosmos-sdk/tree/jack/goz-phase-3)
+
+The Chain ID for the hub will be `gameofzoneshub-3`. For this phase of the competition, teams should append the phase number to their chain ID before phase launch.
+
+
+## Game of Zones Phase 3
+
+The main objective for the last phase of the competition is to stress test the security model of IBC, and the winner will be the team that executes the best confusion or deception attacks against other zones.
+
+The Weekly Challenge Winner for Phase 3 will be the team who develops the best attacks or custom protocols to gain an advantage over other competitors, or a team who successfully executes a double spend attack. We expect competitors to provide technical write ups that include a Proof-of-Concept to show the work they’ve done to win.
+
+Please also look out for the other [cumulative prizes for the Game of Zones](#the_challenges).
+
+
 ## Connecting to the Hub for Phase 2
 
 The Game of Zones Hub for Phase 2 will launch on Friday, May 22nd, and is expected to achieve over 48 hours of required stability needed to begin the next phase of the competition. 
