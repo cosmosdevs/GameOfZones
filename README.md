@@ -8,7 +8,7 @@ Registration is closed.
 The Game of Zones Hub for Phase 3 will launch on Sunday, May 31st. There is a single line bug fix from the Phase 2 Hub so we can assume the the stability will persist. The team is continuing to experiment with configuration changes to Tendermint to increase stability and throughput for the remaining competition.
 
 * A complete roster of participating teams is available [here](goz-roster.csv).
-* The genesis file will be available soon. The Phase 2 file will be based on the Phase 1b file available [here](https://github.com/cosmosdevs/GameOfZones/blob/master/goz-genesis.json), and will be updated to include `10 billion doubloons` in participants’ accounts, and the chain-id expected for each team. 
+* The genesis file will be available soon. The Phase 3 file will be based on the Phase 2a file available [here](https://github.com/cosmosdevs/GameOfZones/blob/master/goz-genesis.json), and will be updated to include `10 billion doubloons` in participants’ accounts, and the chain-id expected for each team. 
 * The ID for the hub will be `gameofzoneshub-3`.
 * There is a node with open RPC on port 80 at  [http://35.190.35.11/](http://35.190.35.11/) 
 * Each team will receive an allocation of doubloons for the competition, and gas prices are set at `0.0025doubloons`.
