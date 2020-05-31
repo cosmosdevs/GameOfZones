@@ -24,7 +24,7 @@ c1082e463b3570c93fddcf3a68405cee2c9d5daf@35.233.155.199:26656
 
 The Game of Zones Team will begin the launch process for the hub on Sunday, 31st of May. In order to connect to the hub, you will need to be using the following versions of software:
 
-Gaia (9b59c43) :[https://github.com/cosmos/gaia/releases/tag/goz-phase-3](https://github.com/cosmos/gaia/releases/tag/goz-phase-2)
+Gaia (9b59c43) :[https://github.com/cosmos/gaia/releases/tag/goz-phase-3](https://github.com/cosmos/gaia/releases/tag/goz-phase-3)
 Relayer (f7c0b90): https://github.com/iqlusioninc/relayer/releases/tag/v0.5.4
 
 And for custom zone operators, update to the following CosmosSDK version:
