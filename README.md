@@ -34,8 +34,13 @@ Cosmos-SDK: [https://github.com/cosmos/cosmos-sdk/tree/jack/goz-phase-2](https:/
 The Chain ID for the hub will be `gameofzoneshub-3`. For this phase of the competition, teams should append the phase number to their chain ID before phase launch.
 
 
-
 ## Game of Zones Phase 3
+
+The main objective for the last phase of the competition is to stress test the security model of IBC, and the winner will be the team that executes the best confusion or deception attacks against other zones.
+
+The Weekly Challenge Winner for Phase 3 will be the team who develops the best attacks or custom protocols to gain an advantage over other competitors, or a team who successfully executes a double spend attack. We expect competitors to provide technical write ups that include a Proof-of-Concept to show the work they’ve done to win.
+
+Please also look out for the other [cumulative prizes for the Game of Zones](#the_challenges).
 
 
 ## Connecting to the Hub for Phase 2
